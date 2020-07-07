@@ -18,26 +18,14 @@ nav:
     - Before the workshop:
         - Setup: setup.md
         - Online workshops: online.md
-    - Introduction to :
-        - Introduction to the Models: 'model-doc/00-model-info.md'
-    - Contributor Guide:
-        - 'How to Contribute': 'contributor-guide/00-contribute-to-VIVA.md'
+    - Git:
+        - Installation: git-installation.md
+        - Why Git?: why-git.md
+    - VIVA+ Postprocessing:
+        - Jupyter: jupyter-intro.md
+        - Dynasaur: dynasuar.md
 
-# Configuration
-theme:
-    name: 'material'
-    palette:
-        primary: 'amber'
-        accent: 'teal'
-    features:
-      - tabs
-    icon: #'images/VIRTUAL.png'
-        #logo: fontawesome/brands/git-alt
-        logo: fontawesome/solid/walking
-        repo: fontawesome/brands/git-alt
-        # Find more at https://material.io/resources/icons/
-    favicon: 'images/favicon.ico'
-
+theme: readthedocs
 # Extensions
 markdown_extensions:
   - footnotes
@@ -53,14 +41,6 @@ markdown_extensions:
   - toc:
       permalink: true
 
-# Plugins
-plugins:
-  - search
-  - bibtex:
-      bib_file: "viva-refs.bib"
-#          - "viva-refs-1.bib"
-      cite_style: "pandoc"
-#  - mknotebooks # pip install mknotebooks
 
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
