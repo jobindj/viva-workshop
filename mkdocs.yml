@@ -20,12 +20,18 @@ nav:
         - Online workshops: online.md
     - Git:
         - Installation: git-installation.md
-        - Why Git?: why-git.md
+        - Introduction to Git: git-intro.md
+        - Git Workflow: git-workflow.md
     - VIVA+ Postprocessing:
         - Jupyter: jupyter-intro.md
         - Dynasaur: dynasuar.md
 
-theme: readthedocs
+#theme: readthedocs
+theme:
+    name: 'material'
+    palette:
+        primary: 'amber'
+        accent: 'teal'
 # Extensions
 markdown_extensions:
   - footnotes
