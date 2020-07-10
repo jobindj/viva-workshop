@@ -97,7 +97,16 @@ Commit structure
 
 Commit hash, SHA
 
+!!! check "Activity: Explore VIVA+ Repo"
+
+    https://virtual.openvt.eu/viva/vivaplus
+    
+
 ## **Git Repo**
+
+Local Repo vs Remote Repo
+
+Distributed Version Control vs Centralized Version Control
 
 A repository (**Repo**) for Git version control is created in two ways:
 
@@ -106,7 +115,7 @@ A repository (**Repo**) for Git version control is created in two ways:
 2. Get a copy of an existing git Repo
     - `git clone`
 
-!!! check "Hands-on Activity: **Clone the VIVA+ repo**" 
+!!! check "Hands-on Activity: **Clone VIVA+ repo**" 
     
     URL: https://virtual.openvt.eu/viva/vivaplus
 
@@ -118,8 +127,7 @@ A repository (**Repo**) for Git version control is created in two ways:
 - [Muscle parameter optimizer](https://github.com/modenaxe/MuscleParamOptimizer)
 - [FEBio](https://github.com/febiosoftware/FEBio)
 - [GIBBON](https://github.com/gibbonCode/GIBBON)
-- 
-
+  
 ## Summary
 
 !!! summary "Recap" 

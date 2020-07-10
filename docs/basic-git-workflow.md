@@ -21,3 +21,11 @@ git merge master
 <iframe src="http://git-school.github.io/visualizing-git/" width="100%" height="700"></iframe>
 
 We used command line for the git actions in the example above. We will supplement GUI (GIt Extensions) illustrations in the rest of the workshop for those not familiar with command line. Most of the git actions can be executed through GUI applications
+
+## What happened when you cloned?
+
+Working tree populated from the index (checkout)
+
+## Stage (git add)
+
+## Commit (git commit)
