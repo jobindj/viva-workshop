@@ -1,5 +1,5 @@
 # Project information
-site_name: VIVA workshop
+site_name: VIVA+ Workshop
 site_url: https://
 site_description: viva+  documentation
 site_author: VIVA+ Team
@@ -9,7 +9,7 @@ repo_name: openvt/
 repo_url: 
 
 # Copyright
-copyright: Copyright &copy; 2019-2020 VIVA+ team
+copyright: Copyright &copy; 2020 VIVA+ team
 
 # Page tree
 nav:
@@ -18,10 +18,11 @@ nav:
     - Before the workshop:
         - Setup: setup.md
         - Online workshops: online.md
-    - Git:
         - Installation: git-installation.md
+    - Git:
         - Introduction to Git: git-intro.md
-        - Git Workflow: git-workflow.md
+        - Basic Git Workflow on Local Repo: basic-git-workflow.md
+        - Working with Remote Repo: work-with-remote-repo.md
     - VIVA+ Postprocessing:
         - Jupyter: jupyter-intro.md
         - Dynasaur: dynasuar.md
@@ -30,11 +31,18 @@ nav:
 theme:
     name: 'material'
     palette:
-        primary: 'amber'
+        primary: 'blue grey'
         accent: 'teal'
+    font:
+        text: Cambay
+        #text: Inder
+        #text: Voces
+        #text: Overlock
+        code: Ubuntu Mono
 # Extensions
 markdown_extensions:
   - footnotes
+  - attr_list
   - pymdownx.arithmatex
   - pymdownx.superfences
   - pymdownx.details
@@ -50,3 +58,6 @@ markdown_extensions:
 
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
+extra_css:
+  - css/extra.css
