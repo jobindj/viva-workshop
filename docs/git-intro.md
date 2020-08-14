@@ -60,25 +60,25 @@ And now Human Body Finite Element Models!
 ## **Why git?** 
 
 - Most popular and widely used version control system
-- Easy to setup - no server needed
+- Easy to setup - no server is required
 - Efficient and distributed version control (no single point of failure, you can track and clean-up changes offline, simplifies collaboration model for open-source projects.)
 - Important platforms such as [GitHub](https://github.com), [GitLab](https://gitlab.com), and [Bitbucket](https://bitbucket.org) build on top of Git.
 
-_(This list is an abridged version from CodeRefinery's Introduction to Git[^2])_
+_(This list is an abridged version from CodeRefinery course 'Introduction to Git' [^2])_
 [^2]: https://coderefinery.github.io/git-intro/01-motivation/#why-git
 
 ## **Git Basics**
 
-- Git tracks the content of a folder and tracks the changes over time as _snapshots_.
-- When a change is ready to be saved, a snapshot of the folder is saved.
+- **What does Git do?** Git tracks the content of a folder and tracks the changes over time as _snapshots_.
+- When a change is ready to be saved, a **snapshot** of the folder is saved.
   - In the Git world, save is known as **commit**
 - These commits are kept in a sub-folder called `.git`
 - `.git` contains the whole repository/database (versions, history, ...)
-- You can interact with Git through mulitple interfaces: command line, graphical user interface, web interface.
+- You can interact with Git through mulitple interfaces: **command line, graphical user interface, web interface.**
 
 ![repo](/img/repo_vivaplus.png#center){: style="width:350px"}
 
-Every time a change in the folder is committed, a new **Commit** is created: _Commit 1, Commit 2, Commit 3, ..._
+Every time a change in the folder is committed(saved), a new **Commit** is created: _Commit 1, Commit 2, Commit 3, ..._
 
 - Git does not create a copy of unchanged files (optimizes storage)
 
@@ -112,13 +112,17 @@ A repository (**Repo**) for Git version control is created in two ways:
 2. Get a copy of an existing git Repo
     - `git clone`
 
+In this workshop we focus on cloning the VIVA+ repo to your computer from the remote repo.
+
 !!! check "Hands-on Activity: **Clone VIVA+ repo**" 
     
-    URL: https://virtual.openvt.eu/viva/vivaplus
+    1. Navigate to the location on your computer where you would like to clone the VIVA+ repo
+   
+    2. Clone the VIVA+ repo: `git@virtual.openvt.eu:viva/vivaplus.git` (This link is available on the top-right corner of the gitlab page)
 
-    - Explore the VIVA+ repo. Along with the average female (50F) model and associated subfolders, you can find the `.git` subfolder.
+    3. Open the directory on your computer to find the VIVA+ repo (Note the `.git` sub-directory showing that this is a git repo)
 
-## Some examples from the world of Biomechanics
+## Few other examples from the world of Biomechanics
 
 - [OpenSim](https://github.com/opensim-org/opensim-core)
 - [Muscle parameter optimizer](https://github.com/modenaxe/MuscleParamOptimizer)
@@ -129,12 +133,15 @@ A repository (**Repo**) for Git version control is created in two ways:
 
 !!! summary "Recap" 
     
-    **repo:** 
+    **repo:** Repository where the library/code lives and grows
 
     **commit:** Git equivalent of "save"
 
+    **`git clone`**: Clone a remote repo to make a local repo on your computer
+
 ### Attribution
 
-The material in this section is based on following courses:
-- Software Carpentry Lesson [Version Control with Git](http://swcarpentry.github.io/git-novice/)
+Some sections on this page are based on following courses:
+
+- Software Carpentry Lesson on [Version Control with Git](http://swcarpentry.github.io/git-novice/)
 - Coderefinery [Introduction to Git](https://coderefinery.github.io/git-intro/)

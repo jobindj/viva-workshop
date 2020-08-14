@@ -14,7 +14,7 @@ copyright: Copyright &copy; 2020 VIVA+
 # Page tree
 nav:
     - Welcome: index.md
-    - Pre-workshop :
+    - Pre-workshop setup :
         - Pre-workshop Setup: 0-setup.md
         - Practical information for Online workshops: 0-online-workshop.md
         - Git configuration: 0-git-configuration.md
@@ -24,7 +24,7 @@ nav:
         - VIVA+ documentation: vivaplus-documentation.md
     - Git:
         - Overview: git-overview.md
-        - Why Git?: git-basics.md
+        - Why Git?: git-intro.md
         - Basic Git Workflow on Local Repo: git-basic-workflow.md
         - Working with Remote Repo: git-remote-repo.md
     - VIVA+ Postprocessing:
@@ -38,11 +38,12 @@ theme:
         primary: 'blue grey'
         accent: 'teal'
     font:
-        text: Cambay
+        text: Open Sans
+        #text: Cambay
         #text: Inder
         #text: Voces
         #text: Overlock
-        code: Ubuntu Mono
+        code: Fira Mono
     icon:
         logo: material/library
         
