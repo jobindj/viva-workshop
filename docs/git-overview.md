@@ -1,0 +1,19 @@
+# Overview of Git Workshop Lessons
+
+This section of the workshop introduces you to Git. The VIVA+ human body models are developed and maintained on a Git repository. The VIVA+ Git repository is hosted on the OpenVT Gitlab platform. Git enables collaborative and open development of VIVA+ models.
+
+So what is Git? Git is an automated **version control** system. "Version control is a system that records the changes to a file or a set of files over time so that you can recall specific versions later."[^1]
+
+The objective of this section is to introduce a new user to the concepts of Git version control to get started with the VIVA+ models.
+
+!!! summary "In this section, you will learn" 
+    - to clone the VIVA+ git repository from OpenVT
+    - the workflow to version control VIVA+ key files
+    - to get updates from the VIVA+ repo
+    - to push your updates to the VIVA+ repo
+    - learn how to participate in open development of the models using Issues board.
+
+Although the illustrations in this workshop are based on OpenVT platform, the git workflow is similar for other popular Git platforms (Github, Gitlab, Bitbucket)
+
+
+[^1]: Pro Git book, https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control

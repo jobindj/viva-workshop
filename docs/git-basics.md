@@ -14,16 +14,11 @@
     - Aprreciate the need for version control
     - Understand git repository structure
    
-
-Git is an **automated _version control_ system**. 
-
-What is _version control_? "Version control is a system that records the changes to a file or a set of files over time so that you can recall specific versions later."[^1]
-
-[^1]: Pro Git book, https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
-
 ## **Why Version Control?**
 
-!!! Warning "Working in a Team"
+Before we start looking at the Git system, it is worth considering: _why bother using Git, when we can use file sharing platforms like Dropbox to collaborate._
+
+!!! Error "Working in a Team"
 
     Imagine if 5 co-authors worked on a paper together using 'Track changes'. Either they have to work sequentially (slowing down the process) or they would have to manually merge their contributions. Also, even with track changes, you lose the history once the changes are accepted. 
      
@@ -32,17 +27,15 @@ What is _version control_? "Version control is a system that records the changes
     -   _“Where is the latest version?”_
     -   _“Which version are you using?”_
 
-    How cumbersome!
+We see how cumbersome writing a paper in parallel can become. Imagine how laborious it can get when geographically spread-out teams collaborate to develop and maintain a finite element model.
 
-[![PhD Comics](/img/phd-comic-VC.gif#center)](http://phdcomics.com/comics/archive.php?comicid=1531)
-    
-Here are some of the reasons we need version control, especially in an open source collaborative workflow.
+Here are few reasons we need version control.
 
-##### Branching
+##### Easy Branching
 
 - Work in parallel or on different features
 
-##### Colloboration
+##### Robust Colloboration
 
 - Avoid accidentally overwriting or overlooking someone else's changes/updates. Good conflict management.
 
@@ -54,11 +47,15 @@ Here are some of the reasons we need version control, especially in an open sour
   
 ### What can be version controlled?
 
+Version control systems were orginally used for software development, but we can use it to version control almost everything:
+
 - Everything that needs to be shared
 - anything that changes overtime
 - papers, books, datasets.
 
 And now Human Body Finite Element Models!
+
+[![PhD Comics](/img/phd-comic-VC.gif#center)](http://phdcomics.com/comics/archive.php?comicid=1531)
 
 ## **Why git?** 
 

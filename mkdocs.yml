@@ -9,23 +9,27 @@ repo_name: openvt/
 repo_url: 
 
 # Copyright
-copyright: Copyright &copy; 2020 VIVA+ team
+copyright: Copyright &copy; 2020 VIVA+
 
 # Page tree
 nav:
-    - VIVA Workshop: 
-        - Outline: index.md
-    - Before the workshop:
-        - Setup: setup.md
-        - Online workshops: online.md
-        - Installation: git-installation.md
+    - Welcome: index.md
+    - Pre-workshop :
+        - Pre-workshop Setup: 0-setup.md
+        - Practical information for Online workshops: 0-online-workshop.md
+        - Git configuration: 0-git-configuration.md
+    - VIVA+ Models:
+        - Introduction to VIVA+: vivaplus-intro.md
+        - Model data structure: vivaplus-data-structure.md
+        - VIVA+ documentation: vivaplus-documentation.md
     - Git:
-        - Introduction to Git: git-intro.md
-        - Basic Git Workflow on Local Repo: basic-git-workflow.md
-        - Working with Remote Repo: work-with-remote-repo.md
+        - Overview: git-overview.md
+        - Why Git?: git-basics.md
+        - Basic Git Workflow on Local Repo: git-basic-workflow.md
+        - Working with Remote Repo: git-remote-repo.md
     - VIVA+ Postprocessing:
-        - Jupyter: jupyter-intro.md
-        - Dynasaur: dynasuar.md
+        - Jupyter: postprocess-jupyter-intro.md
+        - Dynasaur: postprocess-dynasuar.md
 
 #theme: readthedocs
 theme:
@@ -39,6 +43,9 @@ theme:
         #text: Voces
         #text: Overlock
         code: Ubuntu Mono
+    icon:
+        logo: material/library
+        
 # Extensions
 markdown_extensions:
   - footnotes
