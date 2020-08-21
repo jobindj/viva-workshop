@@ -15,5 +15,6 @@ The objective of this section is to introduce a new user to the concepts of Git 
 
 Although the illustrations in this workshop are based on OpenVT platform, the git workflow is similar for other popular Git platforms (Github, Gitlab, Bitbucket) and you will be able to apply the skills you learn to any git repository.
 
+<iframe src="https://www.menti.com/88hbaqhn7q" width="100%" height="700"></iframe>
 
 [^1]: Pro Git book, https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control

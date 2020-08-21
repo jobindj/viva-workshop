@@ -3,9 +3,9 @@
 
 ## Getting an Intuition
 
-In this section and the next, you will learn how to make commits in your local repo. Before we go into details, it is helpful to get a bigger picture of the workflow by visualizing a git workflow for collaborative development. Try the following steps on http://git-school.github.io/visualizing-git/
+In this section and the next, you will learn how to make commits in your local repo and make them available on the remote repo. Before we go into details, it is helpful to get an overview of the git workflow by visualizing a git workflow for collaborative development. 
 
-This page is embedded below if you prefer to stay on this page
+Try the following steps one by one on http://git-school.github.io/visualizing-git/ _(This page is embedded below if you prefer to stay on this page)_
 
 ```
 git commit -m "Femur Mesh"
@@ -20,17 +20,19 @@ git merge master
 
 <iframe src="http://git-school.github.io/visualizing-git/" width="100%" height="700"></iframe>
 
+TODO: Add process desription
+
 We used command line for the git actions in the example above. We will supplement GUI (GIt Extensions) illustrations in the rest of the workshop for those not familiar with command line. Most of the git actions can be executed through GUI applications
 
 ## The Three Git Areas (States)
 
-The files that are tracked by Git can exist in three states: 
+The files that are tracked for changes by Git can exist in three states: 
 
 - **modified**
 - **staged**: marked to go into your next snapshot (to be committed/saved)
 - **committed**: data that is saved to your local repository
 
-The files move between three areas depend on their state (Working Directory, Index, [local] Repository)[^1]:
+The files move between three areas depending on their state (Working Directory, Index, [local] Repository)[^1]:
 
 - You modify the files in the **Working Directory** (also known as Working Tree)
 - Files that are ready to committed are moved to **Index** (also know as **Staging Area**) to be get them ready for the snapshot
@@ -42,9 +44,9 @@ The files move between three areas depend on their state (Working Directory, Ind
 
 The basic Git workflow [^2] that we are going explore in this section goes something like this (see the figure below):
 
-- You checkout the project and modify files (in your working directory)
-- You selectively stage just those changes you want to be part of your next commit, which adds only those changes to the staging area.
-- You do a commit, which takes the files as they are in the staging area and stores that snapshot permanently to your Git directory.
+1. You checkout the project and modify files (in your working directory)
+2. You selectively stage just those changes you want to be part of your next commit, which adds only those changes to the staging area.
+3. You do a commit, which takes the files as they are in the staging area and stores that snapshot permanently to your Git directory.
 
 [^2]: Adapted from https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
 
@@ -62,7 +64,7 @@ git clone git@virtual.openvt.eu:viva-workshops/intro-exercise.git
 
 Alternatively on GUI
 
-![](img/Git-extension-main-options.png)
+![](img/Git-extension-main-options.png#center){: style="width:400px"}
 
 Use the address for SSH cloning in the Clone window 
 

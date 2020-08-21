@@ -103,6 +103,8 @@ Commit hash, SHA
 
 Local Repo vs Remote Repo
 
+TODO: Add image: DVS/remote repo
+
 Distributed Version Control vs Centralized Version Control
 
 A repository (**Repo**) for Git version control is created in two ways:
@@ -122,12 +124,16 @@ In this workshop we focus on cloning the VIVA+ repo to your computer from the re
 
     3. Open the directory on your computer to find the VIVA+ repo (Note the `.git` sub-directory showing that this is a git repo)
 
-## Few other examples from the world of Biomechanics
+## Some examples from the world of Biomechanics
+
+These are some projects that are developed and/or maintained using git
 
 - [OpenSim](https://github.com/opensim-org/opensim-core)
-- [Muscle parameter optimizer](https://github.com/modenaxe/MuscleParamOptimizer)
+- [PIPER Child Model](https://gitlab.inria.fr/piper/child)
 - [FEBio](https://github.com/febiosoftware/FEBio)
 - [GIBBON](https://github.com/gibbonCode/GIBBON)
+- [Muscle parameter optimizer](https://github.com/modenaxe/MuscleParamOptimizer)
+
   
 ## Summary
 

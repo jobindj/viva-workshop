@@ -55,4 +55,8 @@ git push orgin FirstName-LastName
 
 ## Submit a Merge Request
 
+Using the issue number
 
+## More Resources
+
+- [Graphical Interactive cheatsheet](https://ndpsoftware.com/git-cheatsheet.html)
