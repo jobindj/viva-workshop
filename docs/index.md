@@ -2,7 +2,16 @@
 
 ## What will I learn?
 
-## Who should attend?
+- Get introduced to VIVA+ models and OpenVT platform
+- Learn to collaboratively work using Git
+- Learn to postprocess VIVA+ simulations using Dynasaur
+
+## Who can attend?
+
+- Anyone interested in Biomechanics and contributing to Open Source
+  - Students 
+  - Researchers
+  - Engineers
 
 ## What should I do before the workshop?
 
