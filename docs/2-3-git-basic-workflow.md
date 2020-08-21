@@ -54,7 +54,9 @@ The basic Git workflow [^2] that we are going explore in this section goes somet
 
 ## Hands-on Exercise
 
-### Clone the exercise repo
+### 1. Clone the exercise repo
+
+(Skip this step if you did this already in the pre-workshop exercise)
 
 Go to the directory where you would like to clone your repo and use the clone command. On Windows, you can easily open the Git Bash using right click in your prefered directory
 
@@ -78,17 +80,30 @@ Enter the repo and check the files in the repo
 cd intro-exercise
 ```
 You will be able to see a `README.md` and the hidden `.git` folder
-### Learn to stage your changes
+
+### 2. Make a branch and switch to the new branch
+
+git checkout -b FirstName-LastName
+
+If you arleady created a branch during the pre-workshop setup, then switch to it using the following command.
+
+```
+git checkout FirstName-LastName
+```
+
+
+### 3. Making changes to the repo
+
 
 In this step, we will make changes to the repo and stage the updated files for committing them. You will add a new file and then link this file to the README.
 
-We will be creating a list of the workshop participants
+As an exercise, we will be collaboratively creating a list of the workshop participants
 
-#### Create a new file in the repo
+#### a. Create a new file in the repo
 
 Add a new markdown file `FirstName-LastName.md` to the directory. Open the file and add your name and your work/student affiliation.
 
-#### Check the status of your repo
+#### b. Check the status of your repo
 Check the status of your repo
 
 ```
@@ -100,22 +115,35 @@ On Git Extensions, the green `+` sign indicates that there are new files that ar
 
 ![](img/GIt-extensions-git-status.png)
 
-### Stage and Commit 
+#### c. Modify an existing file (README)
 
-The first step to store your new file or update a modified file is to stage it. `git add` is the command for this action
+Edit the README.md to add your name to the list of workshop participants. Add the following line to link you name on the README to the file with your details.
+[FirstName LastName](FirstName-LastName.md)
+
+When you `git status` again, it will show that README has been modified. 
+
+### 4. Stage and Commit 
+
+The first step to store your new file or update a modified file is to stage it (to move it to the index/staging area). `git add` is the command for this action
 
 ```
 git add FirstName-LastName
 ```
 
-If you `git status` again, you will find that this file has been staged to be committed
+If you `git status` again, you will find that this file has been staged to be committed.
+
+Add the README also to the staging area using `git add`
+
+```
+git add README.md
+```
 
 Now you are ready to make the commit(save) to your Git repository (Doing `git status` again will shown that these files are staged(or are currently in the index region))
 
 You need to provide a commit message as you make the commit. The simple way to do this is to give a one line commit message with the `git commit` command
 
 ```
-git commit -m "Add FirstName's affiliation"
+git commit -m "Add FirstName to Participant list"
 ```
 
 If you again do `git status` now, you will see that the working tree is clean and everything has been committed
