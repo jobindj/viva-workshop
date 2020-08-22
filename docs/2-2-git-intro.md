@@ -55,8 +55,7 @@ Version control systems were orginally used for software development, but we can
 
 And now Human Body Finite Element Models!
 
-[![PhD Comics](/img/phd-comic-VC.gif#center)](http://phdcomics.com/comics/archive.php?comicid=1531)
-
+![PhD Comics](img/phd-comic-VC.gif#center)]{: style="width:350px"}
 ## **Why git?** 
 
 - Most popular and widely used version control system
@@ -76,7 +75,7 @@ _(This list is an abridged version from CodeRefinery course 'Introduction to Git
 - `.git` contains the whole repository/database (versions, history, ...)
 - You can interact with Git through mulitple interfaces: **command line, graphical user interface, web interface.**
 
-![repo](/img/repo_vivaplus.png#center){: style="width:350px"}
+![repo](img/repo_vivaplus.png#center){: style="width:350px"}
 
 Every time a change in the folder is committed(saved), a new **Commit** is created: _Commit 1, Commit 2, Commit 3, ..._
 
@@ -84,11 +83,11 @@ Every time a change in the folder is committed(saved), a new **Commit** is creat
 
 - Every commit is a full **snapshot** of the whole folder
 
-![snapshots](/img/snapshots.png)
+![snapshots](img/snapshots.png)
 
 Each commit is connected to its parent: points to its parent as shown below (the files in the snapshots are not shown)
 
-![commit-parent](/img/commit-parent.png)
+![commit-parent](img/commit-parent.png)
 
 Commit structure
 
@@ -154,5 +153,6 @@ Some sections on this page are based on following courses:
 - Coderefinery [Introduction to Git](https://coderefinery.github.io/git-intro/)
 
 Figures:
+- PhD Comic, Jorge Cham, 2012, http://phdcomics.com/comics/archive.php?comicid=1531
 
 - Centralized and Distributed Version Control : [Pro Git, 2ed(2014)](https://git-scm.com/book/en/v2)

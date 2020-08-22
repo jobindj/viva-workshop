@@ -1,4 +1,4 @@
-# Overview of Git Workshop Lessons
+# **Overview of Git Workshop**
 
 This section of the workshop introduces you to Git. The VIVA+ human body models are developed and maintained on a Git repository. The VIVA+ Git repository is hosted on the OpenVT Gitlab platform. 
 
@@ -6,7 +6,7 @@ So what is Git? Git is an automated **version control** system. "Version control
 
 The objective of this section is to introduce a new user to the concepts of Git version control and to introduce them to the VIVA+ models development workflow.
 
-!!! summary "In this section, you will learn" 
+!!! summary "In this workshop, you will learn" 
     - to **clone the VIVA+ git repository** from OpenVT
     - the **workflow to version control** VIVA+ files
     - to **get updates** from the VIVA+ repo

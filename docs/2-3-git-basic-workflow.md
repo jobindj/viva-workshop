@@ -23,7 +23,7 @@ git checkout master
 From the illustration above, note:
 
 - how commits are made as updates are made to a repo
-- how a branch was created to work in parallel and merge the updates into the ``master`` branch. 
+- how a branch is created to work in parallel and merge the updates into the ``master`` branch. 
 - the `HEAD` moved as you switched between the branches. `HEAD` indicates the branch where the next commit will be written on. (Think of it like the _'recording head'_ that writes on a gramophone record or CD/DVD)
 
 <!---
