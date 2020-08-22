@@ -35,8 +35,9 @@ nav:
 theme:
     name: 'material'
     palette:
-        primary: 'blue grey'
-        accent: 'teal'
+        scheme: default
+        primary: black
+        accent: deep orange
     font:
         text: Open Sans
         #text: Cambay

@@ -13,8 +13,6 @@ In this section you will learn to interact with the remote repo
 
 Note the issue number for later reference
 
-Commit the changes to the README using `git commit`
-
 ## 2. Push
 
 Now you are ready to push the changes you made in your branch to the remote repo
@@ -23,6 +21,7 @@ Now you are ready to push the changes you made in your branch to the remote repo
 git push orgin FirstName-LastName
 ```
 
+![Git pull and push](img/git-pull-push.png)
 ## Submit a Merge Request
 
 Using the issue number

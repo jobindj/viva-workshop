@@ -98,14 +98,7 @@ Commit hash, SHA
 
     https://virtual.openvt.eu/viva/vivaplus
     
-
 ## **Git Repo**
-
-Local Repo vs Remote Repo
-
-TODO: Add image: DVS/remote repo
-
-Distributed Version Control vs Centralized Version Control
 
 A repository (**Repo**) for Git version control is created in two ways:
 
@@ -120,9 +113,17 @@ In this workshop we focus on cloning the VIVA+ repo to your computer from the re
     
     1. Navigate to the location on your computer where you would like to clone the VIVA+ repo
    
-    2. Clone the VIVA+ repo: `git@virtual.openvt.eu:viva/vivaplus.git` (This link is available on the top-right corner of the gitlab page)
+    2. Clone the VIVA+ repo: `git clone git@virtual.openvt.eu:viva/vivaplus.git` (This link is available on the top-right corner of the gitlab page)
 
     3. Open the directory on your computer to find the VIVA+ repo (Note the `.git` sub-directory showing that this is a git repo)
+
+![Git clone](img/git-clone.png)
+Git is Distributed Version Control system. Unlike Centralized Version Control system where the versions are kept on a single server and only the required files are checked out, Git mirrors the whole repository to every system. In the exercise above, you received on your computer an exact clone of the repository that exists on OpenVT. "Every clone is really a full backup of all the data". [^dvc]
+[^dvc]: Pro Git, 2ed (2014), https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+
+| **Centralized Version Control** | **Distributed Version Control** |
+|:-------------------------------:|:-------------------------------:|
+|       ![CVC](img/CVC.png)       |       ![DVC](img/DVC.png)       |
 
 ## Some examples from the world of Biomechanics
 
@@ -135,7 +136,7 @@ These are some projects that are developed and/or maintained using git
 - [Muscle parameter optimizer](https://github.com/modenaxe/MuscleParamOptimizer)
 
   
-## Summary
+## **Summary**
 
 !!! summary "Recap" 
     
@@ -151,3 +152,7 @@ Some sections on this page are based on following courses:
 
 - Software Carpentry Lesson on [Version Control with Git](http://swcarpentry.github.io/git-novice/)
 - Coderefinery [Introduction to Git](https://coderefinery.github.io/git-intro/)
+
+Figures:
+
+- Centralized and Distributed Version Control : [Pro Git, 2ed(2014)](https://git-scm.com/book/en/v2)

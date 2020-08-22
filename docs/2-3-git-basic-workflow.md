@@ -1,11 +1,10 @@
-# Basic Git Workflow on Local Repo
+# **Basic Git Workflow on Local Repo**
 
-
-## Getting an Intuition
+## **Getting an Intuition**
 
 In this section and the next, you will learn how to make commits in your local repo and make them available on the remote repo. Before we go into details, it is helpful to get an overview of the git workflow by visualizing a git workflow for collaborative development. 
 
-Try the following steps one by one on http://git-school.github.io/visualizing-git/ _(This page is embedded below if you prefer to stay on this page)_
+Try the following steps one by one on http://git-school.github.io/visualizing-git/ _(This page is embedded below if you prefer to stay on this page. Trying refreshing if you see a blank embedded window)_
 
 ```
 git commit -m "Femur Mesh"
@@ -16,15 +15,24 @@ git branch  <branch name> <commit id>
 git checkout <branch name>
 git commit -m "Femur Properties"
 git merge master
+git checkout master
 ```
 
 <iframe src="http://git-school.github.io/visualizing-git/" width="100%" height="700"></iframe>
 
-TODO: Add process desription
+From the illustration above, note:
 
-We used command line for the git actions in the example above. We will supplement GUI (GIt Extensions) illustrations in the rest of the workshop for those not familiar with command line. Most of the git actions can be executed through GUI applications
+- how commits are made as updates are made to a repo
+- how a branch was created to work in parallel and merge the updates into the ``master`` branch. 
+- the `HEAD` moved as you switched between the branches. `HEAD` indicates the branch where the next commit will be written on. (Think of it like the _'recording head'_ that writes on a gramophone record or CD/DVD)
 
-## The Three Git Areas (States)
+<!---
+!!! tip "Git GUI Client" 
+        
+    We used command line for the git actions in the example above. We will also be showing you how to do these actionsi using Git GUI Client (Git Extensions).
+-->
+
+## **The Three Git Areas (States)**
 
 The files that are tracked for changes by Git can exist in three states: 
 
@@ -32,11 +40,11 @@ The files that are tracked for changes by Git can exist in three states:
 - **staged**: marked to go into your next snapshot (to be committed/saved)
 - **committed**: data that is saved to your local repository
 
-The files move between three areas depending on their state (Working Directory, Index, [local] Repository)[^1]:
+The files move between **_three areas_** depending on the state (Working Directory, Index, [local] Repository)[^1]:
 
-- You modify the files in the **Working Directory** (also known as Working Tree)
-- Files that are ready to committed are moved to **Index** (also know as **Staging Area**) to be get them ready for the snapshot
-- Files prepared in the Index are then safely stored in your **local Git repository**  
+- You _modify_ the files in the **Working Directory** (also known as Working Tree)
+- Files that are ready to committed are moved to **Index** (also know as **Staging Area**) to be get them _ready for the snapshot_
+- Files prepared in the Index are then safely _committed_ in your **local Git repository**  
 
 ![Git directory](img/git-directory-translate-illustration.png)
 
@@ -50,13 +58,13 @@ The basic Git workflow [^2] that we are going explore in this section goes somet
 
 [^2]: Adapted from https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
 
-![Git directory](img/basic-git-workflow.png)
+![Git directory](img/basic-git-workflow.png#center){: style="width:550px"}
 
-## Hands-on Exercise
+## **Hands-on Exercise**
 
-### 1. Clone the exercise repo
+### **1. Clone the exercise repo**
 
-(Skip this step if you did this already in the pre-workshop exercise)
+(Skip this step if you did this already in the pre-workshop setup)
 
 Go to the directory where you would like to clone your repo and use the clone command. On Windows, you can easily open the Git Bash using right click in your prefered directory
 
@@ -81,27 +89,26 @@ cd intro-exercise
 ```
 You will be able to see a `README.md` and the hidden `.git` folder
 
-### 2. Make a branch and switch to the new branch
+### **2. Make a branch and switch to the new branch**
 
 git checkout -b FirstName-LastName
 
-If you arleady created a branch during the pre-workshop setup, then switch to it using the following command.
+If you arleady created a branch during the pre-workshop setup, then switch to your branch using the following command.
 
 ```
 git checkout FirstName-LastName
 ```
 
 
-### 3. Making changes to the repo
-
-
-In this step, we will make changes to the repo and stage the updated files for committing them. You will add a new file and then link this file to the README.
+### **3. Make changes to the repo and save them**
 
 As an exercise, we will be collaboratively creating a list of the workshop participants
 
+In this step, we will make changes to the repo and stage the updated files to Index for committing them. 
+
 #### a. Create a new file in the repo
 
-Add a new markdown file `FirstName-LastName.md` to the directory. Open the file and add your name and your work/student affiliation.
+Add a new markdown file `FirstName-LastName.md` to the directory. Open the file and leave a message.
 
 #### b. Check the status of your repo
 Check the status of your repo
@@ -109,20 +116,15 @@ Check the status of your repo
 ```
 git status
 ```
+
 You can see that the new file is shown as untracked
 
 On Git Extensions, the green `+` sign indicates that there are new files that are not tracked
 
-![](img/GIt-extensions-git-status.png)
+![](img/GIt-extensions-git-status.png#center){: style="width:500px"}
+ 
 
-#### c. Modify an existing file (README)
-
-Edit the README.md to add your name to the list of workshop participants. Add the following line to link you name on the README to the file with your details.
-[FirstName LastName](FirstName-LastName.md)
-
-When you `git status` again, it will show that README has been modified. 
-
-### 4. Stage and Commit 
+#### c. Stage
 
 The first step to store your new file or update a modified file is to stage it (to move it to the index/staging area). `git add` is the command for this action
 
@@ -130,21 +132,38 @@ The first step to store your new file or update a modified file is to stage it (
 git add FirstName-LastName
 ```
 
+![git add](img/git-add.png#center){: style="width:350px"}
+
 If you `git status` again, you will find that this file has been staged to be committed.
 
-Add the README also to the staging area using `git add`
-
-```
-git add README.md
-```
+#### d. Commit
 
 Now you are ready to make the commit(save) to your Git repository (Doing `git status` again will shown that these files are staged(or are currently in the index region))
 
-You need to provide a commit message as you make the commit. The simple way to do this is to give a one line commit message with the `git commit` command
+You need to provide a commit message as you make the commit. The easy way to do this is to give a one line commit message with the `git commit` command
 
 ```
-git commit -m "Add FirstName to Participant list"
+git commit -m "Add FirstName to Repo"
 ```
+
+![Git commit](img/git-commit.png#center){: style="width:350px"}
 
 If you again do `git status` now, you will see that the working tree is clean and everything has been committed
+
+!!! example "Breakout Room Task: Edit the README"
+    
+    We are collaboratively list the participants in the README.md files. In this step, you will add your name to the README file and link the text file you created in the previous step.   
+
+    1. Edit the README.md to add your name to the list of workshop participants.
+    2. Link you name on the README to the file you created using the markdown syntax for linking `[Text to link](Link)`:
+         ```
+         [FirstName LastName](FirstName-LastName.md)
+         ```
+    3. Check the status using `git status`
+    4. Stage and commit the README file with a commit message.
+        ```
+        git add README.md
+        git commit -m "Add FirstName to Participant list"
+        ```
+
 

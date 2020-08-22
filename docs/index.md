@@ -1,22 +1,25 @@
-# VIVA+ Workshop
+![VIRTUAL Logo](img/VIRTUAL_logo_RGB.jpg)
 
-## What will I learn?
+<center><h1>**VIVA+ Workshop**</h1></center>
 
-- Get introduced to VIVA+ models and OpenVT platform
-- Learn to collaboratively work using Git
-- Learn to postprocess VIVA+ simulations using Dynasaur
+## **What will I learn?**
 
-## Who can attend?
+- Get introduced to **VIVA+ models** and **OpenVT** platform
+- Learn to collaborate and contribute to **Open Source** using Git
+- Learn to **postprocess** VIVA+ simulations using Python-based Dynasaur library
 
-- Anyone interested in Biomechanics and contributing to Open Source
-  - Students 
-  - Researchers
-  - Engineers
+## **Who is it intended for?**
 
-## What should I do before the workshop?
+Anyone interested in Biomechanics and contributing to Open Source
 
-1. Sign up on OpenVT
-2. Configure your Git (SSH Key, username and email)
+- Students 
+- Researchers
+- Engineers
+
+## **What should I do before the workshop?**
+
+1. Sign up on [OpenVT](https://virtual.openvt.eu/)
+2. [Install and configure Git](0-setup) on your computer
 3. Install the packages required for the workshop
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This workshop handout is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.

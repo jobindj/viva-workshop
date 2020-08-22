@@ -1,9 +1,8 @@
 # Pre-workshop installation
 
 ## Install Git
-If you have already a working installation of Git on your system, you can skip this step. Otherwise, browse to the OpenVT platform, find the wiki of the “manuals and guidelines” group. In the wiki, you’ll finde a section “how to get started with Git” – follow the instructions
-- to install Git on [Linux](https://virtual.openvt.eu/platform_manual_and_guidelines/manual_and_guidelines/wikis/installing-git:-Linux)
--  or on [Windows](https://virtual.openvt.eu/platform_manual_and_guidelines/manual_and_guidelines/wikis/Installing-git:-Windows).
+
+If you have already a working installation of Git on your system, you can skip this step. Otherwise you can find instructions on the OpenVT platform to install Git on [Linux](https://virtual.openvt.eu/platform_manual_and_guidelines/manual_and_guidelines/wikis/installing-git:-Linux) or on [Windows](https://virtual.openvt.eu/platform_manual_and_guidelines/manual_and_guidelines/wikis/Installing-git:-Windows).
 
 ## Git GUI options
 
