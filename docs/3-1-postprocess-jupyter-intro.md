@@ -62,6 +62,7 @@ Ad another graph after the energy graphs, which shows the added mass as a functi
 Find the correct naming of the channel in the Dynasaur file
 [Dynasaur](3-2-postprocess-dynasuar.md)
 
+[Result](https://www.menti.com/96iccuf11t)
 
 ### Task 3 (Advanced): Visualise the impactor velocity as a function of time
 
@@ -69,6 +70,10 @@ Find the correct naming of the channel in the Dynasaur file
 - Add the plot in the jupyter notebook
 
 
+## Summary
+
+Please fill in the [survey](https://www.menti.com/v7q7jpsrkp)
+<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/embed/88e1b5248db612866bf0f699e8998443/913bce81c136' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
 
 
 
