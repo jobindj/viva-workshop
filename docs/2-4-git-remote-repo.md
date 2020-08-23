@@ -43,7 +43,7 @@ Now you are ready to push the changes you made in your branch to the remote repo
 git push orgin FirstName-LastName
 ```
 
-![Git pull and push](img/git-pull-push.png)
+![Git pull and push](img/git-pull-push_1.png)
 
 ## Submit a Merge Request
 
