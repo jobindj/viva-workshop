@@ -35,7 +35,7 @@ Here are few reasons we need version control.
 
 - Work in parallel or on different features
 
-##### Robust Colloboration
+##### Robust Collaboration
 
 - Avoid accidentally overwriting or overlooking someone else's changes/updates. Good conflict management.
 
@@ -56,6 +56,7 @@ Version control systems were orginally used for software development, but we can
 And now Human Body Finite Element Models!
 
 ![PhD Comics](img/phd-comic-VC.gif#center)]{: style="width:350px"}
+
 ## **Why git?** 
 
 - Most popular and widely used version control system
@@ -89,14 +90,10 @@ Each commit is connected to its parent: points to its parent as shown below (the
 
 ![commit-parent](img/commit-parent.png)
 
-Commit structure
-
-Commit hash, SHA
-
 !!! check "Activity: Explore VIVA+ Repo"
 
     https://virtual.openvt.eu/viva/vivaplus
-    
+
 ## **Git Repo**
 
 A repository (**Repo**) for Git version control is created in two ways:
@@ -112,12 +109,22 @@ In this workshop we focus on cloning the VIVA+ repo to your computer from the re
     
     1. Navigate to the location on your computer where you would like to clone the VIVA+ repo
    
-    2. Clone the VIVA+ repo: `git clone git@virtual.openvt.eu:viva/vivaplus.git` (This link is available on the top-right corner of the gitlab page)
+    2. Clone the VIVA+ repo: 
+    ```
+    git clone <SSH link>
+    ```
+    (The link to clone is available on the top-right corner of the gitlab page)
 
-    3. Open the directory on your computer to find the VIVA+ repo (Note the `.git` sub-directory showing that this is a git repo)
+    3. Open the directory on your computer to find the VIVA+ repo 
+   
+       Note the `.git` sub-directory showing that this is a git repo
 
-![Git clone](img/git-clone.png)
-Git is Distributed Version Control system. Unlike Centralized Version Control system where the versions are kept on a single server and only the required files are checked out, Git mirrors the whole repository to every system. In the exercise above, you received on your computer an exact clone of the repository that exists on OpenVT. "Every clone is really a full backup of all the data". [^dvc]
+![Git clone](img/git-clone_1.png)
+Git is **Distributed Version Control** system. Unlike _Centralized Version Control_ system where the versions are kept on a single server and only the required files are checked out, Distributed Version Control systems like Git mirrors the whole repository from the server.
+
+- In the exercise above, you received on your computer an exact clone of the whole VIVA+ repository that exists on OpenVT. 
+- _"Every clone is really a full backup of all the data"_. [^dvc]
+
 [^dvc]: Pro Git, 2ed (2014), https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 
 | **Centralized Version Control** | **Distributed Version Control** |
@@ -126,7 +133,7 @@ Git is Distributed Version Control system. Unlike Centralized Version Control sy
 
 ## Some examples from the world of Biomechanics
 
-These are some projects that are developed and/or maintained using git
+These are some projects that are **developed** and/or **maintained** using Git
 
 - [OpenSim](https://github.com/opensim-org/opensim-core)
 - [PIPER Child Model](https://gitlab.inria.fr/piper/child)
@@ -134,7 +141,6 @@ These are some projects that are developed and/or maintained using git
 - [GIBBON](https://github.com/gibbonCode/GIBBON)
 - [Muscle parameter optimizer](https://github.com/modenaxe/MuscleParamOptimizer)
 
-  
 ## **Summary**
 
 !!! summary "Recap" 
@@ -153,6 +159,7 @@ Some sections on this page are based on following courses:
 - Coderefinery [Introduction to Git](https://coderefinery.github.io/git-intro/)
 
 Figures:
+
 - PhD Comic, Jorge Cham, 2012, http://phdcomics.com/comics/archive.php?comicid=1531
 
 - Centralized and Distributed Version Control : [Pro Git, 2ed(2014)](https://git-scm.com/book/en/v2)
