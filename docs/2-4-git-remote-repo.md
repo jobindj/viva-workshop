@@ -35,36 +35,54 @@ Note the issue number of the issue you just create for later reference.This numb
 
 [^1]: https://docs.gitlab.com/ee/user/project/issues/
 
-## 2. Push
 
-Now you are ready to push the changes you made in your branch to the remote repo
+
+## **2. Push**
+
+Now you are ready to push the changes you made in your branch to the remote repo. The command for this is `git push <remote name> <branch name>`. In our case, the remote repo on OpenVT has the default name `origin` and so use the following command to **push your branch** to the remote repo
 
 ```
-git push orgin FirstName-LastName
+git push origin FirstName-LastName
 ```
+_If you are using Git Extensions_, use the Push button on the top toolbar to open the Push Window. Select the Remote, in our case `origin`, to push your branch.
 
 ![Git pull and push](img/git-pull-push_1.png)
 
-## Submit a Merge Request
+## **3. Submit a Merge Request**
 
-Using the issue number
+This step submits your updates for the approval and merging of the repo maintainters.
 
-## Pull the latest version of the repo
+- Select the Source branch (your branch to merge) and target branch (master)
+- Give a title (and description) to your merge request. 
+- Add 'closes #issuenumber' or 'fix #issuenumber' (Example, `closes #21`/`fix #7`) to the title to indicate that this merge request closes your `#issuenumber`.
+- Assign the merge request to one of the maintainers of the repo
+- Add the group `VIVA Workshops` as the approvers. The maintainers of that group will then get a request to review and approve your merge request
+- Submit your merge request (Green button)
 
-After the merge request has been approved, pull the repo to see your changes updated to the repo
+??? tip "Tip: Keywords that close an issue"
+    
+    The following keywords can be used in the merge request to close an issue [^1]
+
+    - Close, Closes, Closed, Closing, close, closes, closed, closing
+    - Fix, Fixes, Fixed, Fixing, fix, fixes, fixed, fixing
+    - Resolve, Resolves, Resolved, Resolving, resolve, resolves, resolved, resolving
+    - Implement, Implements, Implemented, Implementing, implement, implements, implemented, implementing 
+
+    [^1]: https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#default-closing-pattern
+
+## **4. Pull**
 
 ```
-git pull
+git pull --rebase <remote name> <branch name>
 ```
 
-```
-git pull --rebase
-```
+_If you are using Git Extensions_, get the drop-down menu beside the pull button to select 'PUll-rebase' 
+
+![Git Extensions Pull Rebase](img/Git-extensions-pull-rebase.png#center){: style="width:350px"}
 
 ### Fetch
 
 
-### Merge/Rebase
 
 !!! question "What happens when you switch branches?"
 
