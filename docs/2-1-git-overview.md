@@ -4,7 +4,7 @@ This section of the workshop introduces you to Git. The VIVA+ human body models 
 
 So what is Git? Git is an automated **version control** system. "Version control is a system that records the changes to a file or a set of files over time so that you can recall specific versions later."[^1] The collaborative and open development of VIVA+ models is enabled by Git.
 
-The objective of this section is to introduce a new user to the concepts of Git version control and to introduce them to the VIVA+ models development workflow.
+The objective of this section is to introduce a new user to the concepts of Git version control and to introduce them to the VIVA+ model development workflow.
 
 !!! summary "In this workshop, you will learn" 
     - to **clone the VIVA+ git repository** from OpenVT

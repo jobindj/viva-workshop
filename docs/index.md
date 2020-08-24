@@ -10,7 +10,7 @@
 
 ## **Who is it intended for?**
 
-Anyone interested in Biomechanics and contributing to Open Source
+This workshop is intended for those interested in **Biomechanics**, particularly injury in the human body, and anyone excited to contribute to **Open Science**:
 
 - Students 
 - Researchers
