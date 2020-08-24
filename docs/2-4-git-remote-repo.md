@@ -76,20 +76,26 @@ This step submits your updates for the approval and merging of the repo maintain
 git pull --rebase <remote name> <branch name>
 ```
 
-_If you are using Git Extensions_, get the drop-down menu beside the pull button to select 'PUll-rebase' 
+Here we use the `rebase` option. The rebase option moves commits on your local repo ahead of the changes from the remote repo, if possible, so that you get a clean linear history when you push your updates to the remote repo.
+
+_If you are using Git Extensions_, get the drop-down menu beside the pull button to select 'Pull-rebase'
 
 ![Git Extensions Pull Rebase](img/Git-extensions-pull-rebase.png#center){: style="width:350px"}
 
-### Fetch
+`git pull` is a combination two git actions:
 
+- `git fetch` : fetch the latest update on a branch/repo from the remote
+- `git merge`: merges these updates to the current state of your repo
 
+You can do these steps manually if you prefer to have more control over the pull process.
 
 !!! question "What happens when you switch branches?"
 
-    > This is an important point to remember: when you switch branches, Git resets your working directory to look like it did the last time you committed on that branch. It adds, removes, and modifies files automatically to make sure your working copy is what the branch looked like on your last commit to it.
+    An important point to remember:
+    
+    -  when you switch branches, Git resets your working directory to look like it did the last time you committed on that branch. 
+    -  It adds, removes, and modifies files to make your working directory look like what the branch looked like on your last commit to it.
         
-
-
 ## More Resources
 
 - [Graphical Interactive cheatsheet](https://ndpsoftware.com/git-cheatsheet.html)

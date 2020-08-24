@@ -17,7 +17,7 @@
 
 In this section and the next, you will learn how to make commits in your local repo and make them available on the remote repo. Before we go into details, it is helpful to get an overview of the git workflow by visualizing a git workflow for collaborative development. 
 
-Try the following steps one by one on http://git-school.github.io/visualizing-git/ _(This page is embedded below if you prefer to stay on this page. Trying refreshing if you see a blank embedded window)_
+Try the following git commands one at a time on http://git-school.github.io/visualizing-git/ _(This page is embedded below if you prefer to stay on this page. Trying refreshing if you see a blank embedded window)_
 
 ```
 git commit -m "Femur Mesh"
@@ -53,7 +53,7 @@ The basic Git workflow [^2] goes something like this (see the figure below):
 2. You stage the changes you want to be part of your next commit
 3. You make a commit to the repo, which takes the files as they are in the staging area and stores that snapshot permanently to your Git directory.
 
-[^2]: Adapted from https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
+[^2]: Text and figure adapted from https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
 
 ![Git directory](img/basic-git-workflow.png#center){: style="width:550px"}
 
@@ -68,8 +68,8 @@ The files that are tracked for changes by Git can exist in three states:
 Depending on their state, the files move between **_three areas_** in your local directory[^1]:
 
 - You _modify_ the files in the **Working Directory** (also known as Working Tree). Working directory is the visible section of your repo. 
-- Files that are ready to committed are moved to **Index** (also know as **Staging Area**) - getting them _ready for the snapshot_
-- Files prepared in the Index are then safely _committed_ to your **local Git repository**  
+- Files that are ready to committed are moved to **Index**/**Staging Area**.  This action is commonly refered to as _staging_ (think of it as getting the files _ready for the snapshot_).
+- The **local Git repository**  holds the files you _commit_ from Staging Area
 
 ![Git directory](img/git-directory-translate-illustration.png)
 
@@ -81,7 +81,7 @@ Depending on their state, the files move between **_three areas_** in your local
 
 ### **1. Clone the exercise repo**
 
-(Skip this step if you completed this in the pre-workshop setup)
+(Skip this step if you completed it in the pre-workshop setup)
 
 Go to the location where you would like to clone your repo and use the clone command. On Windows, you can easily open the Git Bash using right click in your prefered directory
 
@@ -97,7 +97,7 @@ Use the address for SSH cloning in the Clone window
 
 ![Git Extensions Clone](img/Git-extensions-Clone-Window.png)
 
-This step clones the `intro-exercise` directory from the remote repo (on OpenVT) and checks out out the latest version to populate your working directory/tree
+This step clones the `intro-exercise` directory from the remote repo (on OpenVT) and checks out the latest version to populate your working directory/tree
 
 Enter the repo and check the files in the repo
 
@@ -159,7 +159,7 @@ On Git Extensions, the green `+` sign indicates that there are new files that ar
 The first step to store your new file or update a modified file is to stage it (to move it to the Index/Staging Area). `git add` is the command for this action
 
 ```
-git add FirstName-LastName
+git add FirstName-LastName.md
 ```
 
 ![git add](img/git-add.png#center){: style="width:350px"}

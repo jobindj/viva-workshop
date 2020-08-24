@@ -1,8 +1,10 @@
-# Dynasaur
+# **Dynasaur**
 
 Dynasaur Input files are written in json. 
 
-> Tip: If you change something in a big file, it can help to use a json validator - e.g. https://jsonlint.com/
+!!! tip "JSON Tip" 
+        
+    If you change something in a big file, it can help to use a json validator - e.g. https://jsonlint.com/
 
 ### Object.def
 

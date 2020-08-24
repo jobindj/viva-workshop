@@ -1,36 +1,37 @@
-# Postprocessing with Jupyter & Dynasaur
+# **Postprocessing with Jupyter & Dynasaur**
 
 
 Files with the .ipynb extensions are jupyter notebooks. Clicking on the Viano_V1.ipynb file, should therefore open the notebook in a further tab. As already indicated, jupyter notebooks are interactive documents and allow scripting. The provided notebook contains a short description of the dynasaur python package (written in markdown) and how data from the simulation result files can be extracted by its usage. Therefore, the notebook directly loads and visualizes simulated results of interest. 
 
-## Open a Jupyter notebook
-### 1.) Open your Anaconda Console (Anaconda Prompt)
-### 2.) Navigate to your local directory
+## **Open a Jupyter notebook**
 
->``pushd C:\"your path"\intro_exercis\Postprocessing``
+1. Open your Anaconda Console (Anaconda Prompt)
 
-### 4.) If you have installed dynasaur and jupyter in a specific environment, then activate it at first 
+2. Navigate to your local directory
+```
+pushd C:\"your path"\intro_exercis\Postprocessing
+```
 
->``activate dynasaur``
+3. If you have installed dynasaur and jupyter in a specific environment, then activate it at first 
+```
+activate dynasaur
+```
 
-### 3.) Start jupyter notebook 
+4. Start jupyter notebook 
+```
+jupyter notebook
+```
 
-> ``jupyter notebook``
-
-### 4.) Jupyter should start to run in your webbrowser:
-
+5. Jupyter should start to run in your webbrowser:
 ![4ac81621818059a99974ec34bfcc7fe2.png](img/4ac81621818059a99974ec34bfcc7fe2.png)
 
-### 5.) click on [jupyter-notebook-viano-2020-08-18.ipynb](http://localhost:8888/notebooks/jupyter_notebook_viano_2020-08-18.ipynb) to open the exemplary notebook we have shared with you
-
+6. click on [jupyter-notebook-viano-2020-08-18.ipynb](http://localhost:8888/notebooks/jupyter_notebook_viano_2020-08-18.ipynb) to open the exemplary notebook we have shared with you
 ![7671863442da639b5ce89afc8a2c6ecb.png](img/7671863442da639b5ce89afc8a2c6ecb.png)
 
-
-### 6.) Run the notebook - Click on "Restart and run all cells"
-
+7. Run the notebook - Click on "Restart and run all cells"
 ![2af44cd5c2b289b7437f3b87fd39bbf9.png](img/2af44cd5c2b289b7437f3b87fd39bbf9.png)
 
-###7.) Have a look at the notebook
+8. Have a look at the notebook
 
 Which input files are used?
 
@@ -43,7 +44,7 @@ e.g.
 
 
 
-## Connection with [Dynasaur](3-2-postprocess-dynasuar.md)
+## **Connection with [Dynasaur](3-2-postprocess-dynasuar.md)**
 
 
 
