@@ -149,10 +149,12 @@ git status
 
 You can see that the new file is shown as untracked
 
-On Git Extensions, the green `+` sign indicates that there are new files that are not tracked
+??? tip "GUI: `git status` on Git Extension" 
+        
+    On Git Extensions, the green `+` sign indicates that there are new files that are not tracked
 
-![](img/GIt-extensions-git-status.png#center){: style="width:500px"}
- 
+    ![](img/GIt-extensions-git-status.png#center){: style="width:500px"}
+    
 
 #### c. Stage
 
