@@ -5,7 +5,7 @@
 ## **What will I learn?**
 
 - Get introduced to **VIVA+ models** and **OpenVT** platform
-- Learn to collaborate and contribute to **Open Source** using Git
+- Learn to collaborate and contribute to **Open Science** using Git
 - Learn to **postprocess** VIVA+ simulations using Python-based Dynasaur library
 
 ## **Who is it intended for?**
@@ -22,6 +22,6 @@ This workshop is intended for those interested in using and contributing to VIVA
 2. [Install and configure Git](0-setup) on your computer
 3. Install the packages required for the workshop
 
-![VIRTUAL Funding](img/VIRTUAL_EUFunding.png)
+![VIRTUAL Funding](img/VIRTUAL_EUFunding.png){: style="width:600px"}
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />The contents in this handout are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. Referenced content hold their original license.
