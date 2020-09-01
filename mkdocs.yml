@@ -1,12 +1,12 @@
 # Project information
 site_name: VIVA+ Workshop
-site_url: https://
-site_description: viva+  documentation
-site_author: VIVA+ Team
+site_url: https://viva-workshop.readthedocs.io
+site_description: Handouts for VIVA+ Hands-on Workshop
+site_author: Jobin John, Corina Klug
 
 # Repository
-repo_name: openvt/
-repo_url: 
+#repo_name: openvt/
+#repo_url: 
 
 # Copyright
 copyright: Copyright &copy; 2020 VIVA+
