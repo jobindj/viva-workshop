@@ -18,6 +18,7 @@ nav:
         - Pre-workshop Setup: 0-setup.md
         - Practical information for Online workshops: 0-online-workshop.md
         - Git configuration: 0-git-configuration.md
+        - Dynasaur setup: 0-dynasaur-setup.md
     #- VIVA+ Models:
     #    - Introduction to VIVA+: 1-1-vivaplus-intro.md
     #    - Model data structure: 1-2-vivaplus-data-structure.md
