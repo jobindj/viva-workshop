@@ -1,7 +1,6 @@
-# **Postprocessing with Jupyter & Dynasaur**
+# **Postprocessing with Jupyter Notebook & Dynasaur**
 
-
-Files with the .ipynb extensions are jupyter notebooks. Clicking on the Viano_V1.ipynb file, should therefore open the notebook in a further tab. As already indicated, jupyter notebooks are interactive documents and allow scripting. The provided notebook contains a short description of the dynasaur python package (written in markdown) and how data from the simulation result files can be extracted by its usage. Therefore, the notebook directly loads and visualizes simulated results of interest. 
+Files with the .ipynb extensions are Jupyter Notebooks. Clicking on the Viano_V1.ipynb file, should therefore open the notebook in a further tab. As already indicated, jupyter notebooks are interactive documents and allow scripting. The provided notebook contains a short description of the dynasaur python package (written in markdown) and how data from the simulation result files can be extracted by its usage. Therefore, the notebook directly loads and visualizes simulated results of interest.
 
 ## **Open a Jupyter notebook**
 
@@ -12,17 +11,17 @@ Files with the .ipynb extensions are jupyter notebooks. Clicking on the Viano_V1
 pushd C:\"your path"\intro_exercis\Postprocessing
 ```
 
-3. If you have installed dynasaur and jupyter in a specific environment, then activate it at first 
+3. If you have installed dynasaur and Jupyter Notebook in a specific environment, then activate it at first 
 ```
-activate dynasaur
+activate viva_workshop
 ```
 
-4. Start jupyter notebook 
+4. Start Jupyter Notebook 
 ```
 jupyter notebook
 ```
 
-5. Jupyter should start to run in your webbrowser:
+5. Jupyter Notebook should start to run in your webbrowser:
 ![4ac81621818059a99974ec34bfcc7fe2.png](img/4ac81621818059a99974ec34bfcc7fe2.png)
 
 6. click on [jupyter-notebook-viano-2020-08-18.ipynb](http://localhost:8888/notebooks/jupyter_notebook_viano_2020-08-18.ipynb) to open the exemplary notebook we have shared with you
