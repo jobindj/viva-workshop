@@ -1,1 +1,0 @@
-# **Pre-workshop setup for Dynasaur**
