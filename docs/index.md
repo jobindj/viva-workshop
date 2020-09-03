@@ -1,7 +1,7 @@
 ![VIRTUAL Logo](img/VIRTUAL_logo_RGB.jpg#center)
 
 <center><h1><b>**VIVA+ Workshop**</b></h1></center>
-
+<center><h2>September 10, 2020</h2></center>
 ## **What will I learn?**
 
 - Get introduced to **VIVA+ models** and **OpenVT** platform
