@@ -2,7 +2,7 @@
 
 ## SSH
 
-You will need to setup SSH key for your OpenVT account. Follow [the instructions on OpenVT Manual](https://virtual.openvt.eu/platform_manual_and_guidelines/manual_and_guidelines/wikis/Getting-started-with-Git#creating-an-ssh-key) to setup your SSH key
+You will need to setup SSH key for your OpenVT account. Follow [these instructions on OpenVT Manual](https://virtual.openvt.eu/platform_manual_and_guidelines/manual_and_guidelines/wikis/Getting-started-with-Git#creating-an-ssh-key) to setup your SSH key
 
 ## Configuring Git user name and email
 

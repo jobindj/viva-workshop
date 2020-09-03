@@ -5,9 +5,8 @@ This part of the workshop introduces the postprocessing methodologies used for t
 In this part of the workshop our aim is to introduce new users to the work with Jupyter Notebook and the use of Dynasaur to assess simulated results. 
 
 !!! summary "In this workshop, you will learn" 
-    - how to **use Jupyter Notebook** to document your simulated results
-    - how the **Dynasaur controller classes** can be used for the assessment
-    - how to **visualize simulated results** and communicate your improvements of the VIVA+ model
+    - how to **use Jupyter Notebook** to document your simulation
+    - how the **Dynasaur controller classes** can be used for HBM assessment
+    - how to **visualize simulation results** and communicate your updates to VIVA+ model
 
-
-The workshop is not meant to be a programming class, it should give you, however, a notion how easy model changes can be tracked and documented using the skripting language Python and Jupyter Notebook.
+The workshop is not meant to be a programming tutorial. It should give you, however, a notion how easy model changes can be tracked and documented using Python and Jupyter Notebook.

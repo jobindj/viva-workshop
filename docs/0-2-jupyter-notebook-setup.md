@@ -7,7 +7,7 @@ In this tutorial we will guide you through setting up Jupyter Notebook on a Wind
 For Linux-Ubuntu installations I would recommend to follow [these instructions](https://www.digitalocean.com/community/tutorials/how-to-set-up-jupyter-notebook-with-python-3-on-ubuntu-18-04). If you use any other system, let us know, such that we can go through the installation together.
 
 
-## Step 1 - Python setup 
+## **1. Python setup** 
 
 For the use under Windows, we recommend [Anaconda](https://www.anaconda.com/) which is a free development environment for the Python programming language. In the [download archive](https://www.anaconda.com/) you should find the latest version that fits your system.
 Anaconda comes with the environment management system ```conda``` which can be used to manage virtual Python environments.
@@ -29,12 +29,17 @@ You have to install pip first such that additional packages can be created in th
 >>> conda install pip
 ```
 
+## **2. Dynasaur setup**
+
 Further install the postprocessing library Dynasaur, which will automatically download all its dependencies 
 and requirements will be installed automatically.
 
 ```
 >>> pip install dynasaur
 ```
+
+## **3. Install Jupyter**
+
 In a next step you can install Jupyter Notebook in your newly created environment. 
 
 ```
@@ -68,5 +73,5 @@ Run the cells of the file by clicking on the run buttons. In the end you should 
 
 ![ExampleNotebook](img/example_notebook.png){: style="width:600px"}
 
-If you encounter any problem during the installation please contact us on that.
+If you encounter any problem during the installation [please contact us](0-3-online-workshop-info.md).
 

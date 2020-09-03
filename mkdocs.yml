@@ -2,7 +2,7 @@
 site_name: VIVA+ Workshop
 site_url: https://viva-workshop.readthedocs.io
 site_description: Handouts for VIVA+ Hands-on Workshop
-site_author: Jobin John, Corina Klug
+site_author: Jobin John, Corina Klug, Martin Schachner
 
 # Repository
 #repo_name: openvt/
@@ -15,10 +15,10 @@ copyright: Copyright &copy; 2020 VIVA+
 nav:
     - Welcome: index.md
     - Pre-workshop Setup :
-        - Pre-workshop Setup: 0-setup.md
-        - Practical information for Online workshops: 0-online-workshop.md
-        - Git configuration: 0-git-configuration.md
-        - Jupyter Notebook Setup: 0-jupyter-notebook-setup.md
+        - Pre-workshop Setup: 0-1-setup.md
+        - Jupyter Notebook Setup: 0-2-jupyter-notebook-setup.md
+        - Practical information: 0-3-online-workshop-info.md
+
     #- VIVA+ Models:
     #    - Introduction to VIVA+: 1-1-vivaplus-intro.md
     #    - Model data structure: 1-2-vivaplus-data-structure.md
