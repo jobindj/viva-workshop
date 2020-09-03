@@ -5,7 +5,7 @@
 ## **What will I learn?**
 
 - Get introduced to **VIVA+ models** and **OpenVT** platform
-- Learn to collaborate and contribute to **Open Source** using Git
+- Learn to collaborate and contribute the **Open Source** way using Git
 - Learn to **postprocess** VIVA+ simulations using Python-based Dynasaur library
 
 ## **Who is it intended for?**
@@ -19,7 +19,7 @@ This workshop is intended for those interested in using and contributing to VIVA
 ## **Schedule** (CEST)
 
 - 1300 - 1340 : Introducing the VIVA+ Models and OpenVT platform
-- 1340 - 1530 : VIVA+ Git Repository (Hands-on session)
+- 1340 - 1530 : VIVA+ Development Git Workflow (Hands-on session)
 - 1530 - 1700 : Introduction to Dynasaur Library (Using Jupyter notebooks)
 
 (See in your [your time zone](https://time.is/1300_10_Sept_2020_in_Gothenburg/EDT/UTC/Melbourne?VIVA___Workshop))
