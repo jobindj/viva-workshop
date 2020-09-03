@@ -18,16 +18,22 @@ This workshop is intended for those interested in using and contributing to VIVA
 
 ## **Schedule** (CEST)
 
-- 1300 - 1340 : Introducing the VIVA+ Models and OpenVT platform
-- 1340 - 1530 : VIVA+ Development Git Workflow (Hands-on session)
-- 1530 - 1700 : Introduction to Dynasaur Library (Using Jupyter notebooks)
+- 1300 - 1305 : Welcome
+- 1305 - 1310 : VIRTUAL 
+- 1310 - 1325 : Introduction to VIVA+ Models 
+- 1325 - 1340 : Introduction to OpenVT 
+- 1340 - 1400 : Git: Introduction
+- 1400 - 1410 : Break
+- 1415 - 1445 : Git: Workflow Demo
+- 1445 - 1505 : Git: Hands-on Exercise
+- 1505 - 1515 : Break 
+- 1515 - 1525 : Git: Wrap-up and Summary 
+- 1525 - 16-- : Dynasaur: Intro 
+- 16 : Break
+- 16-- - 1650 : Dynasaur: Demo 
+- 1650 - 1700 : Welcome to Open Science! 
 
 (See in your [your time zone](https://time.is/1300_10_Sept_2020_in_Gothenburg/EDT/UTC/Melbourne?VIVA___Workshop))
-
-### **Pre-workshop Office hours (Support for Installations)**
-
-- 08 Sept, 1730 -1830
-- 10 Sept, 1000 - 1100
 
 ## **Before the workshop**
 

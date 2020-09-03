@@ -19,19 +19,19 @@ nav:
         - Jupyter Notebook Setup: 0-2-jupyter-notebook-setup.md
         - Practical information: 0-3-online-workshop-info.md
 
-    #- VIVA+ Models:
-    #    - Introduction to VIVA+: 1-1-vivaplus-intro.md
-    #    - Model data structure: 1-2-vivaplus-data-structure.md
-    #    - VIVA+ documentation: 1-3-vivaplus-documentation.md
+    - VIVA+ Models:
+        - Introduction to VIVA+: 1-1-vivaplus-intro.md
+        - Model data structure: 1-2-vivaplus-data-structure.md
+        - VIVA+ documentation: 1-3-vivaplus-documentation.md
     - Git:
         - Overview: 2-1-git-overview.md
-    #    - Why Git?: 2-2-git-intro.md
-    #    - Basic Git Workflow on Local Repo: 2-3-git-basic-workflow.md
-    #    - Working with Remote Repo: 2-4-git-remote-repo.md
+        - Why Git?: 2-2-git-intro.md
+        - Basic Git Workflow on Local Repo: 2-3-git-basic-workflow.md
+        - Working with Remote Repo: 2-4-git-remote-repo.md
     - VIVA+ Postprocessing:
         - Overview: 3-0-postprocessing-overview.md
-    #    - Jupyter: 3-1-postprocess-jupyter-intro.md
-    #    - Dynasaur: 3-2-postprocess-dynasuar.md
+        - Jupyter: 3-1-postprocess-jupyter-intro.md
+        - Dynasaur: 3-2-postprocess-dynasuar.md
 
 #theme: readthedocs
 theme:
