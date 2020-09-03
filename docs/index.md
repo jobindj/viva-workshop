@@ -2,7 +2,8 @@
 
 <center><h1><b>**VIVA+ Workshop**</b></h1></center>
 <center><h2>September 10, 2020</h2></center>
-## **What will I learn?**
+
+## **What will you learn?**
 
 - Get introduced to **VIVA+ models** and **OpenVT** platform
 - Learn to collaborate and contribute the **Open Source** way using Git
@@ -18,19 +19,25 @@ This workshop is intended for those interested in using and contributing to VIVA
 
 ## **Schedule** (CEST)
 
-- 1300 - 1305 : Welcome
+- 1300 - 1305 : Welcome/Icebreaker
 - 1305 - 1310 : VIRTUAL 
 - 1310 - 1325 : Introduction to VIVA+ Models 
 - 1325 - 1340 : Introduction to OpenVT 
+
+**VIVA+ Development Git Workflow**
+
 - 1340 - 1400 : Git: Introduction
-- 1400 - 1410 : Break
+- 1400 - 1410 : _Break_
 - 1415 - 1445 : Git: Workflow Demo
 - 1445 - 1505 : Git: Hands-on Exercise
-- 1505 - 1515 : Break 
-- 1515 - 1525 : Git: Wrap-up and Summary 
-- 1525 - 16-- : Dynasaur: Intro 
-- 16 : Break
-- 16-- - 1650 : Dynasaur: Demo 
+- 1505 - 1515 : _Break_ 
+- 1515 - 1525 : Git: Wrap-up and Summary
+
+**Introduction to Dynasaur Library**
+
+- 1525 - 1610 : Dynasaur: Intro 
+- 1610 - 1620 : _Break_
+- 1620 - 1650 : Dynasaur: Illustration
 - 1650 - 1700 : Welcome to Open Science! 
 
 (See in your [your time zone](https://time.is/1300_10_Sept_2020_in_Gothenburg/EDT/UTC/Melbourne?VIVA___Workshop))
@@ -43,6 +50,6 @@ This workshop is intended for those interested in using and contributing to VIVA
 
 
 
-![VIRTUAL Funding](img/VIRTUAL_EUFunding.png){: style="width:600px"}
+![VIRTUAL Funding](img/VIRTUAL_EUFunding.png){: style="width:450px"}
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />The contents in this handout are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. Referenced content hold their original license.
