@@ -14,7 +14,7 @@ Anaconda comes with the environment management system `conda` which can be used 
 In order to set up a new environment for this workshop, open Anaconda Prompt and type the following
 
 ```
->>> conda create -n viva_workshop
+>>> conda create -n viva_workshop python=3.7.9
 ```
 
 Switch to the newly created environment
