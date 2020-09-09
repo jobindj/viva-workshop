@@ -4,6 +4,13 @@
 
 You will need to setup SSH key for your OpenVT account. Follow [these instructions on OpenVT Manual](https://virtual.openvt.eu/platform_manual_and_guidelines/manual_and_guidelines/wikis/Getting-started-with-Git#creating-an-ssh-key) to setup your SSH key
 
+To test whether your SSH key was added correctly, run the following command in your terminal
+
+```
+ssh -T git@virtual.openvt.eu
+```
+You should receive a Welcome to GitLab, @username! message.
+
 ## Configuring Git user name and email
 
 You will need to configure your name and email.

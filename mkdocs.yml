@@ -15,7 +15,7 @@ copyright: Copyright &copy; 2020 VIVA+
 nav:
     - Welcome: index.md
     - Pre-workshop Setup :
-        - Pre-workshop Setup: 0-1-setup.md
+        - Git Setup: 0-1-setup.md
         - Jupyter Notebook Setup: 0-2-jupyter-notebook-setup.md
         - Practical information: 0-3-online-workshop-info.md
 
