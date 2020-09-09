@@ -3,7 +3,7 @@
 <center><h1><b>**VIVA+ Workshop**</b></h1></center>
 <center><h2>September 10, 2020</h2></center>
 
-## **What will you learn?**
+## **What you will learn**
 
 - Get introduced to **VIVA+ models** and **OpenVT** platform
 - Learn to collaborate and contribute the **Open Source** way using Git
