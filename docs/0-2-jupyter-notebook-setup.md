@@ -4,13 +4,13 @@ The Jupyter Notebook app was developed to interactively process, visulize and pr
 In general it can be used with several programming languages, including Python, Julia, R, Haskell, and Ruby. For the workshop we will work with Python.
 
 In this tutorial we will guide you through setting up Jupyter Notebook on a Windows system. 
-For Linux-Ubuntu installations I would recommend to follow [these instructions](https://www.digitalocean.com/community/tutorials/how-to-set-up-jupyter-notebook-with-python-3-on-ubuntu-18-04). If you use any other system, let us know, such that we can go through the installation together.
+For Linux-Ubuntu installations we recommend to follow [these instructions](https://www.digitalocean.com/community/tutorials/how-to-set-up-jupyter-notebook-with-python-3-on-ubuntu-18-04). If you use any other system, let us know, such that we can go through the installation together.
 
 
 ## **1. Python setup** 
 
-For the use under Windows, we recommend [Anaconda](https://www.anaconda.com/) which is a free development environment for the Python programming language. In the [download archive](https://www.anaconda.com/) you should find the latest version that fits your system.
-Anaconda comes with the environment management system ```conda``` which can be used to manage virtual Python environments.
+For Windows, we recommend [Anaconda](https://www.anaconda.com/) which is a free development environment for the Python programming language. In the [download archive](https://www.anaconda.com/) you should find the latest version that fits your system.
+Anaconda comes with the environment management system `conda` which can be used to manage virtual Python environments.
 In order to set up a new environment for this workshop, open Anaconda Prompt and type the following
 
 ```
@@ -31,7 +31,7 @@ You have to install pip first such that additional packages can be created in th
 
 ## **2. Dynasaur setup**
 
-Further install the postprocessing library Dynasaur, which will automatically download all its dependencies 
+Next, install the postprocessing library Dynasaur, which will automatically download all its dependencies 
 and requirements will be installed automatically.
 
 ```
@@ -40,7 +40,7 @@ and requirements will be installed automatically.
 
 ## **3. Install Jupyter**
 
-In a next step you can install Jupyter Notebook in your newly created environment. 
+Next, install Jupyter Notebook in your newly created environment. 
 
 ```
 >>> pip install notebook
