@@ -43,6 +43,11 @@ Depending on their state, the files move between **_three areas_** in your local
 - The **local Git repository**  holds the files you _commit_ from Staging Area
 
 
+Get your files ready for the snapshot | Store them permanently in the repo |
+:---------:|:----------:|
+![git add](img/git-add.png#center){: style="width:350px"}| ![Git commit](img/git-commit.png#center){: style="width:350px"} |
+
+
 [^1]: 1.3 Getting Started - What is Git?, Pro Git Book, https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
 
 ## **Git branches**
@@ -145,54 +150,12 @@ git checkout master
 
         If you again do `git status` now, you will see that the working tree is clean and everything has been committed
 
-#### a. Create a new file in the repo
 
-Add a new markdown file `FirstName-LastName.md` to the directory. Open the file and leave a message.
-
-#### b. Check the status of your repo
-Check the status of your repo
-
-
-#### 
-
-![git add](img/git-add.png#center){: style="width:350px"}
-
-If you `git status` again, you will find that this file has been staged to be committed.
-
-_If you are using Git Extensions,_ click on the Commit button on the toolbar at the top to open the Commit Window. Select only the files that you want to commit and select Stage to move them to the Index/Staging Area
-
-![Git Extensions Commit Window](img/Git-extension-commit-window.png)
-
-#### d. Commit
-
-
-
-![Git commit](img/git-commit.png#center){: style="width:350px"}
-
-
-
-!!! example "Breakout Room Task: Edit the README"
-    
-    We are collaboratively preparing a list of the participants in the README.md files. In this step, you will add your name to the README file and link the text file you created in the previous step.   
-
-    1. Edit the README.md to add your name to the list of workshop participants.
-    2. Link you name on the README to the file you created using the markdown syntax for linking `[Text to link](Link)`:
-         ```
-         [FirstName LastName](FirstName-LastName.md)
-         ```
-    3. Check the status using `git status`
-    4. Stage and commit the README file with a commit message.
-        ```
-        git add README.md
-        git commit -m "Add FirstName to Participant list"
-        ```
-
-
-## *Summary*
+<!-- ## *Summary*
 
 !!! summary "Recap" 
         
 
         - `git add`:
         - `git commit`:
-        - `git branch`:
+        - `git branch`: -->

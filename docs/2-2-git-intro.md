@@ -76,27 +76,9 @@ _(This list is an abridged version from CodeRefinery course 'Introduction to Git
 ![](img/vivaplus-remote-repo.png)
 
 
-!!! check "Hands-on Activity: Explore the Repository and Start an issue" 
+!!! check "Hands-on Activity: Explore the VIVA+ Repo" 
         
     1. Check out the VIVA+ online repository: https://virtual.openvt.eu/fem/viva/plus
-
-## **Gitlab Issues**
-
-Gitlab issues are used to collaborate on ideas and plan work. _"The GitLab issue tracker is an advanced tool for collaboratively developing ideas, solving problems, and planning work. Issues can allow sharing and discussion of proposals before, and during, their implementation."_[^10]
-
-[^10]: https://docs.gitlab.com/ee/user/project/issues/
-
-!!! check "Hands-on Activity: Explore the Repository and Start an issue" 
-
-    For the hands-on exercise, we will be creating a list of the workshop participants collaboratively. In this step, you will be creating an issue to let the repo maintainers (workshop organizers) know that you would like to add your name to the participants list. To do this, complete these steps:
-
-    1. Go to the exercise repository: https://virtual.openvt.eu/viva-workshops/workshop-exercise/
-    2. Start an issue to update the participants list 
-
-          - On the Gitlab web interface, select `Issues` on the left panel. You can create an issue by selecting `list` or `board`.
-            - List gives you a list of all the issues posted on this repo
-            - The board categorizes the issues based on their labels
-          - Assign the issue to yourself as you plan to take care of this issue.
 
 ## **Cloning a repository**
 
@@ -123,6 +105,24 @@ A Git repository (**Repo**) for  version control is created in two ways:
     3. Open the directory on your computer to find the VIVA+ repo 
    
         (Note the `.git` sub-directory showing that this is a git repo)
+
+## **Gitlab Issues**
+
+Gitlab issues are used to collaborate on ideas and plan work. _"The GitLab issue tracker is an advanced tool for collaboratively developing ideas, solving problems, and planning work. Issues can allow sharing and discussion of proposals before, and during, their implementation."_[^10]
+
+[^10]: https://docs.gitlab.com/ee/user/project/issues/
+
+!!! check "Hands-on Activity: Start an issue" 
+
+    For the hands-on exercise, we will be creating a list of the workshop participants collaboratively. In this step, you will create an issue to let the repo maintainers (workshop organizers) know that you would like to add your name to the participants list.
+
+    1. Go to the exercise repository: https://virtual.openvt.eu/viva-workshops/workshop-exercise/
+    2. Start an issue to update the participants list 
+
+          - On the Gitlab web interface, select `Issues` on the left panel. You can create an issue by selecting `list` or `board`.
+            - List gives you a list of all the issues posted on this repo
+            - The board categorizes the issues based on their labels
+          - Assign the issue to yourself as you plan to take care of this issue.
 
 ## **Git Basics**
 
