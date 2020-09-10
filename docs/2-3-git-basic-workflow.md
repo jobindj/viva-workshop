@@ -12,10 +12,47 @@
     - Learn the basic Git workflow: update-add-commit
     - Implement branches
 
+In this section, you will learn how to work on your local repo
+
+## **The basic workflow**
+
+The basic Git workflow [^2] goes something like this (see the figure below):
+
+1. You checkout the project and modify files (in your working directory)
+2. You stage the changes you want to be part of your next commit
+3. You make a commit to the repo, which takes the files as they are in the staging area and stores that snapshot permanently to your Git directory.
+
+[^2]: Text and figure adapted from https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
+
+![Git directory](img/basic-git-workflow.png#center){: style="width:550px"}
+
+### **The Three Git Areas (States)**
+
+The files that are tracked for changes by Git can exist in three states: 
+
+- **modified**: files that you updated or added
+- **staged**: files that are ready and that are marked to go into your next snapshot (to be committed/saved)
+- **committed**: data that is saved to your local repository
+
+![Git directory](img/git-directory-translate-illustration.png)
+
+Depending on their state, the files move between **_three areas_** in your local directory[^1]:
+
+- You _modify_ the files in the **Working Directory** (also known as Working Tree). Working directory is the visible section of your repo. 
+- Files that are ready to committed are moved to **Index**/**Staging Area**.  This action is commonly refered to as _staging_ (think of it as getting the files _ready for the snapshot_).
+- The **local Git repository**  holds the files you _commit_ from Staging Area
+
+
+[^1]: 1.3 Getting Started - What is Git?, Pro Git Book, https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
+
+## **Git branches**
+
+A repository can have one or more branches. The main branch, where all changes are eventually merged into, is called master. Developers use branches to explore and experiment with updates/features and merge their updates into the master when they are ready. _(In the figure, commits P, Q, and R are on a branch. Commit P on the branch was created from the master. The branch is then merged into the master when ready)_
+
+![](img/branches.png)
+
 
 ## **Getting an Intuition**
-
-In this section and the next, you will learn how to make commits in your local repo and make them available on the remote repo. Before we go into details, it is helpful to get an overview of the git workflow by visualizing a git workflow for collaborative development. 
 
 Try the following git commands one at a time on http://git-school.github.io/visualizing-git/ _(This page is embedded below if you prefer to stay on this page. Trying refreshing if you see a blank embedded window)_
 
@@ -39,102 +76,74 @@ git checkout master
     - A branch is created to work in parallel. The branch is then merged into the ``master`` branch. 
     - the `HEAD` moved as you switched between the branches. `HEAD` indicates the branch where the next commit will be written on. (Think of it like the _'recording head'_ that writes on a gramophone record or CD/DVD)
 
-<!---
-!!! tip "Git GUI Client" 
+
+!!! check "Exercise: Commits and Branches" 
         
-    We used command line for the git actions in the example above. We will also be showing you how to do these actionsi using Git GUI Client (Git Extensions).
--->
+        As an exercise, we will be collaboratively creating a list of the workshop participants
 
-## **The basic workflow**
+        **1. Clone the exercise repo**
 
-The basic Git workflow [^2] goes something like this (see the figure below):
+        Go to the location where you would like to clone the exercise repo <https://virtual.openvt.eu/viva-workshops/workshop-exercise>. Use the `git clone` command. Use the address for SSH cloning. (On Windows, an easy option is to open the Git Bash using right click in your preferred directory)
 
-1. You checkout the project and modify files (in your working directory)
-2. You stage the changes you want to be part of your next commit
-3. You make a commit to the repo, which takes the files as they are in the staging area and stores that snapshot permanently to your Git directory.
+            ```
+            git clone git@virtual.openvt.eu:viva-workshops/workshop-exercise.git
+            ```
+        Enter the repo and check the files in the repo
 
-[^2]: Text and figure adapted from https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
+        ```
+        cd intro-exercise
+        ```
+        You will be able to see a `README.md` and the hidden `.git` folder
 
-![Git directory](img/basic-git-workflow.png#center){: style="width:550px"}
+        **2. Make a branch and switch to the new branch**
 
-### **The Three Git Areas (States)**
+        Create a branch `FirstName` for this exercise.
 
-The files that are tracked for changes by Git can exist in three states: 
+        ```
+        git checkout -b FirstName
+        ```
 
-- **modified**: files that you updated or added
-- **staged**: files that are ready and that are marked to go into your next snapshot (to be committed/saved)
-- **committed**: data that is saved to your local repository
+        `git checkout -b <branch-name>` is shorthand for:
 
-Depending on their state, the files move between **_three areas_** in your local directory[^1]:
+        ```
+        git branch <branch-name>
+        git checkout <branch-name>
+        ```
 
-- You _modify_ the files in the **Working Directory** (also known as Working Tree). Working directory is the visible section of your repo. 
-- Files that are ready to committed are moved to **Index**/**Staging Area**.  This action is commonly refered to as _staging_ (think of it as getting the files _ready for the snapshot_).
-- The **local Git repository**  holds the files you _commit_ from Staging Area
+        **3. Make changes to the repo**
 
-![Git directory](img/git-directory-translate-illustration.png)
+        In this step, add your name to the README file in your branch and stage the updates to Index(Staging Area) for committing them. 
 
-[^1]: 1.3 Getting Started - What is Git?, Pro Git Book, https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
+        Open the README.md file in any text editor and add your name to the Participants section. Save the changes.
 
+        **4. Check the status of your repo**
 
+        Check the status of your repo
 
-## **Hands-on Exercise**
+        ```
+        git status
+        ```
+        You can see the changes to the repo
 
-### **1. Clone the exercise repo**
+        **5. Stage your updates**
 
-(Skip this step if you completed it in the pre-workshop setup)
+        The first step to save your updates is to stage it (to move it to the Index/Staging Area). `git add` is the command for this action
 
-Go to the location where you would like to clone your repo and use the clone command. On Windows, you can easily open the Git Bash using right click in your prefered directory
+        ```
+        git add README.md
+        ```
 
-```
-git clone git@virtual.openvt.eu:viva-workshops/intro-exercise.git
-```
+        **6. Commit your changes**
 
-Alternatively on GUI
+        Now you are ready to make the commit(save) to your Git repository (Doing `git status` again will shown that the staged files are staged(or are currently in the index region))
 
-![](img/Git-extension-main-options.png#center){: style="width:400px"}
+        You need to provide a commit message as you make the commit. The easy way to do this is to give a one line commit message with the `git commit` command
 
-Use the address for SSH cloning in the Clone window 
+        ```
+        git commit -m "Add <your-name> to README.md"
+        ```
 
-![Git Extensions Clone](img/Git-extensions-Clone-Window.png)
-
-This step clones the `intro-exercise` directory from the remote repo (on OpenVT) and checks out the latest version to populate your working directory/tree
-
-Enter the repo and check the files in the repo
-
-```
-cd intro-exercise
-```
-You will be able to see a `README.md` and the hidden `.git` folder
-
-### **2. Make a branch and switch to the new branch**
-
-If you already created a branch during the pre-workshop setup, then switch to your branch using the following command.
-
-```
-git checkout <branch-name>
-```
-
-Otherwise create a branch `FirstName-LastName` for this exercise.
-
-```
-git checkout -b FirstName-LastName
-```
-
-`git checkout -b <branch-name>` is shorthand for:
-
-```
-git branch <branch-name>
-git checkout <branch-name>
-```
-_If you are using Git Extensions_, right-click on the `master` label and select 'Create new branch here...'
-
-![Create new branch using Git Extensions](img/Git-extension-new-branch.png#center)
-
-### **3. Make changes to the repo and 'save' them**
-
-As an exercise, we will be collaboratively creating a list of the workshop participants
-
-In this step, we will make changes to the repo and stage the updated files to Index for committing them. 
+        If you again do `git status` now, you will see that the working tree is clean and everything has been committed
 
 #### a. Create a new file in the repo
 
@@ -143,26 +152,8 @@ Add a new markdown file `FirstName-LastName.md` to the directory. Open the file 
 #### b. Check the status of your repo
 Check the status of your repo
 
-```
-git status
-```
 
-You can see that the new file is shown as untracked
-
-??? tip "GUI: `git status` on Git Extension" 
-        
-    On Git Extensions, the green `+` sign indicates that there are new files that are not tracked
-
-    ![](img/GIt-extensions-git-status.png#center){: style="width:500px"}
-    
-
-#### c. Stage
-
-The first step to store your new file or update a modified file is to stage it (to move it to the Index/Staging Area). `git add` is the command for this action
-
-```
-git add FirstName-LastName.md
-```
+#### 
 
 ![git add](img/git-add.png#center){: style="width:350px"}
 
@@ -174,17 +165,11 @@ _If you are using Git Extensions,_ click on the Commit button on the toolbar at 
 
 #### d. Commit
 
-Now you are ready to make the commit(save) to your Git repository (Doing `git status` again will shown that these files are staged(or are currently in the index region))
 
-You need to provide a commit message as you make the commit. The easy way to do this is to give a one line commit message with the `git commit` command
-
-```
-git commit -m "Add FirstName to Repo"
-```
 
 ![Git commit](img/git-commit.png#center){: style="width:350px"}
 
-If you again do `git status` now, you will see that the working tree is clean and everything has been committed
+
 
 !!! example "Breakout Room Task: Edit the README"
     

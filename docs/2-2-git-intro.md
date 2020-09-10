@@ -1,4 +1,4 @@
-# **Introduction to Git**
+# **Getting started with Git**
 
 !!! summary "Overview" 
 
@@ -55,7 +55,7 @@ Version control systems were orginally used for software development, but we can
 - anything that changes overtime
 - papers, books, datasets.
 
-And now Human Body Finite Element Models!
+And Human Body Finite Element Models!
 
 ![PhD Comics](img/phd-comic-VC.gif#center){: style="width:600px"}
 
