@@ -24,7 +24,8 @@ jupyter notebook
 5. Jupyter Notebook should start to run in your webbrowser:
 ![4ac81621818059a99974ec34bfcc7fe2.png](img/4ac81621818059a99974ec34bfcc7fe2.png)
 
-6. click on [jupyter-notebook-viano-2020-08-18.ipynb](http://localhost:8888/notebooks/jupyter_notebook_viano_2020-08-18.ipynb) to open the exemplary notebook we have shared with you
+6. Click on [Jupyter Notebook](http://localhost:8888/notebooks/Jupyter_Notebook_Viano_internal_workshop.ipynb) to open the exemplary notebook we have shared with you
+
 ![7671863442da639b5ce89afc8a2c6ecb.png](img/7671863442da639b5ce89afc8a2c6ecb.png)
 
 7. Run the notebook - Click on "Restart and run all cells"
@@ -53,16 +54,18 @@ e.g.
 
 Try to visualise the simulation results of an alternative material model. You can find those results in your directory under \Viano_Pelvis_HS_Adjusted_Flesh_Material
 
-[How does the updated data differ from the original?](https://www.menti.com/tetaqcorsf)
+Post your observations on [Mentimeter](https://www.menti.com/rj7ki1t5x7)
 
-### Task 2: Create a plot which shows the added mass as a function of time
+<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/embed/8de0ef5ac6fe10c65bf7c2d9bed6a687/f96965b5ffb0' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
 
-Ad another graph after the energy graphs, which shows the added mass as a function of time
+
+### Task 2 (Advanced): Create a plot which shows the added mass as a function of time
+
+Add another graph after the energy graphs, which shows the added mass as a function of time
 
 Find the correct naming of the channel in the Dynasaur file
 [Dynasaur](3-2-postprocess-dynasuar.md)
 
-[Result](https://www.menti.com/96iccuf11t)
 
 ### Task 3 (Advanced): Visualise the impactor velocity as a function of time
 
@@ -72,8 +75,7 @@ Find the correct naming of the channel in the Dynasaur file
 
 ## Summary
 
-Please fill in the [survey](https://www.menti.com/v7q7jpsrkp)
-<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/embed/88e1b5248db612866bf0f699e8998443/913bce81c136' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
+Switch to [Mentimeter](https://www.menti.com/1jgi9w7kok)
 
 
 
