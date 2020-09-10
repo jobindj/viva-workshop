@@ -4,51 +4,53 @@
 
     **Questions**
 
-    - How can I report an issue/error or request a feature/update with the model/library?
     - How can I make my changes available on the remote repo?
     - How can I submit a request to merge my updates to the model?
     - How can I get updates from the remote repo on my local repo?
   
     **Objectives** 
 
-    - Get familiar with the Gitlab issue board for issue creation and project planning
     - Learn to push updates to the remote Git server
     - Execute a merge request submission of your branch
     - Learn to pull updates from the remote Git server
   
 
- This section of the Git workshop focusses on interacting with the remote repo.
-
-## **1. Create an Issue**
-_"The GitLab issue tracker is an advanced tool for collaboratively developing ideas, solving problems, and planning work. Issues can allow sharing and discussion of proposals before, and during, their implementation."_[^1]
-
-In this exercise, you will be creating an issue to let the repo maintainers (workshop organizers) know that you would like to add your name to the participants list. To do this, complete these steps:
-
-- On the Gitlab web interface, select `Issues` on the left panel. You can create an issue by selecting `list` or `board`.
-    - List gives you a list of all the issues posted on this repo
-    - The board categorizes the issues based on their labels
-- Assign the issue to yourself as you plan to handle this issue.
-- Go to the board and move it to the `Doing` board as you plan to tackle this issue now
+ This section focusses on interacting with the remote repo.
 
 
-Note the issue number of the issue you just create for later reference.This number will be used to submit a merge request.
+## **Push your updates**
 
-[^1]: https://docs.gitlab.com/ee/user/project/issues/
-
-
-
-## **2. Push**
-
-Now you are ready to push the changes you made in your branch to the remote repo. The command for this is `git push <remote name> <branch name>`. In our case, the remote repo on OpenVT has the default name `origin` and so use the following command to **push your branch** to the remote repo
+Now you are ready to push the changes you made in your branch to the remote repo. The command for this is `git push <remote name> <branch name>`. In our case, the remote repo has the default name `origin`, so use the following command to **push your branch** to the remote repo
 
 ```
-git push origin FirstName-LastName
+git push origin <branch>
 ```
-_If you are using Git Extensions_, use the Push button on the top toolbar to open the Push Window. Select the Remote, in our case `origin`, to push your branch.
 
-![Git pull and push](img/git-pull-push_1.png)
+<!--- _If you are using Git Extensions_, use the Push button on the top toolbar to open the Push Window. Select the Remote, in our case `origin`, to push your branch.
 
-## **3. Submit a Merge Request**
+![Git pull and push](img/git-pull-push_1.png) -->
+
+!!! check "Bonus Exercise: Add a new file to the repo and link it to the README"
+    
+    **1. Create a new Markdown(.md) file and leave a message in it**
+    
+    Create a new text file and save it as a markdown file. For example: `Name.md`
+    Check what `git status` tells you now
+
+    **2. Link this file to your name in the README**
+
+    The markdown syntax to link is [text to link](link). Add a link to your name like this [First-name](Name.md)
+
+    **3. Commit your updates**
+
+    Add your files using `git add` and commit them using `git commit -m "Commit Message"`
+
+    **4. Push your branch again**
+
+        
+
+
+## **Submit a Merge Request**
 
 This step submits your updates for the approval and merging of the repo maintainters.
 
@@ -70,17 +72,17 @@ This step submits your updates for the approval and merging of the repo maintain
 
     [^1]: https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#default-closing-pattern
 
-## **4. Pull**
+## **Pull updates from remote repo**
 
 ```
-git pull --rebase <remote name> <branch name>
+git pull <remote name> <branch name>
 ```
 
 Here we use the `rebase` option. The rebase option moves commits on your local repo ahead of the changes from the remote repo, if possible, so that you get a clean linear history when you push your updates to the remote repo.
 
-_If you are using Git Extensions_, get the drop-down menu beside the pull button to select 'Pull-rebase'
+<!-- _If you are using Git Extensions_, get the drop-down menu beside the pull button to select 'Pull-rebase'
 
-![Git Extensions Pull Rebase](img/Git-extensions-pull-rebase.png#center){: style="width:350px"}
+![Git Extensions Pull Rebase](img/Git-extensions-pull-rebase.png#center){: style="width:350px"} -->
 
 `git pull` is a combination two git actions:
 

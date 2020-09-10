@@ -36,7 +36,7 @@ The Git workflow will be illustrated using the command line in the workshop.
 
 If you are more comfortable using GUI instead of command line, there are many [Git GUI clients](https://git-scm.com/downloads/guis) available. 
 
-_Git workflow using [Git Extensions](http://gitextensions.github.io/) GUI client will be provided in the handouts. You are welcome to explore this at your pace after the workshop._
+<!-- _Git workflow using [Git Extensions](http://gitextensions.github.io/) GUI client will be provided in the handouts. You are welcome to explore this at your pace after the workshop._ -->
 
 
 ## **2. Install Jupyter Notebook**

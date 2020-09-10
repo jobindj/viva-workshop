@@ -1,4 +1,4 @@
-# **Introduction to Git**
+# **Getting started with Git**
 
 !!! summary "Overview" 
 
@@ -7,12 +7,14 @@
     - Why version control?
     - Why git?
     - How are files version controled in git?
+    - How can I report an issue/error or request a feature/update with the model/library?
   
     **Objectives** 
   
     - Learn what is automated version control
     - Aprreciate the need for version control
     - Understand git repository structure
+    - Get familiar with the Gitlab issue board for issue creation and project planning
    
 ## **Why Version Control?**
 
@@ -53,7 +55,7 @@ Version control systems were orginally used for software development, but we can
 - anything that changes overtime
 - papers, books, datasets.
 
-And now Human Body Finite Element Models!
+And Human Body Finite Element Models!
 
 ![PhD Comics](img/phd-comic-VC.gif#center){: style="width:600px"}
 
@@ -68,6 +70,59 @@ And now Human Body Finite Element Models!
 _(This list is an abridged version from CodeRefinery course 'Introduction to Git' [^2])_
 [^2]: https://coderefinery.github.io/git-intro/01-motivation/#why-git
 -->
+
+## **VIVA+ Repository on OpenVT**
+
+![](img/vivaplus-remote-repo.png)
+
+
+!!! check "Hands-on Activity: Explore the VIVA+ Repo" 
+        
+    1. Check out the VIVA+ online repository: https://virtual.openvt.eu/fem/viva/plus
+
+## **Cloning a repository**
+
+A Git repository (**Repo**) for  version control is created in two ways:
+
+1. Enable version control on an existing folder
+    - `git init`
+2. Get a copy of an existing git Repo
+    - `git clone`
+
+![Git clone](img/git-clone_1.png)
+
+!!! check "Hands-on Activity: **Clone VIVA+ repo**" 
+    
+    1. Navigate to the location on your computer where you would like to clone the VIVA+ repo
+   
+    2. Clone the VIVA+ repo using the command `git clone <link>` 
+        
+        (The link to clone is available on the top-right corner of the gitlab page)
+    ```
+    git clone git@virtual.openvt.eu:fem/viva/plus.git
+    ```
+
+    3. Open the directory on your computer to find the VIVA+ repo 
+   
+        (Note the `.git` sub-directory showing that this is a git repo)
+
+## **Gitlab Issues**
+
+Gitlab issues are used to collaborate on ideas and plan work. _"The GitLab issue tracker is an advanced tool for collaboratively developing ideas, solving problems, and planning work. Issues can allow sharing and discussion of proposals before, and during, their implementation."_[^10]
+
+[^10]: https://docs.gitlab.com/ee/user/project/issues/
+
+!!! check "Hands-on Activity: Start an issue" 
+
+    For the hands-on exercise, we will be creating a list of the workshop participants collaboratively. In this step, you will create an issue to let the repo maintainers (workshop organizers) know that you would like to add your name to the participants list.
+
+    1. Go to the exercise repository: https://virtual.openvt.eu/viva-workshops/workshop-exercise/
+    2. Start an issue to update the participants list 
+
+          - On the Gitlab web interface, select `Issues` on the left panel. You can create an issue by selecting `list` or `board`.
+            - List gives you a list of all the issues posted on this repo
+            - The board categorizes the issues based on their labels
+          - Assign the issue to yourself as you plan to take care of this issue.
 
 ## **Git Basics**
 
@@ -92,36 +147,8 @@ Each commit is connected to its parent: points to its parent as shown below (the
 
 ![commit-parent](img/commit-parent.png)
 
-!!! check "Activity: Explore VIVA+ Repo"
 
-    https://virtual.openvt.eu/fe_models/viva/vivaplus
-
-## **Git Repo**
-
-A repository (**Repo**) for Git version control is created in two ways:
-
-1. Enable version control on an existing folder
-    - `git init`
-2. Get a copy of an existing git Repo
-    - `git clone`
-
-In this workshop we focus on cloning the VIVA+ repo to your computer from the remote repo.
-
-!!! check "Hands-on Activity: **Clone VIVA+ repo**" 
-    
-    1. Navigate to the location on your computer where you would like to clone the VIVA+ repo
-   
-    2. Clone the VIVA+ repo using the command `git clone <link>` (The link to clone is available on the top-right corner of the gitlab page)
-    ```
-    git clone git@virtual.openvt.eu:fe_models/viva/vivaplus.git
-    ```
-
-    3. Open the directory on your computer to find the VIVA+ repo 
-   
-       Note the `.git` sub-directory showing that this is a git repo
-
-![Git clone](img/git-clone_1.png)
-Git is **Distributed Version Control** system. Unlike _Centralized Version Control_ system where the versions are kept on a single server and only the required files are checked out, Distributed Version Control systems, like Git, mirrors the whole repository from the server.
+Git is a **Distributed Version Control** system. Unlike _Centralized Version Control_ systems where the versions are kept on a single server and only the required files are checked out, Distributed Version Control systems, like Git, mirrors the whole repository from the server.
 
 - In the exercise above, you received on your computer an exact clone of the whole VIVA+ repository that exists on OpenVT. 
 - _"Every clone is really a full backup of all the data"_. [^dvc]
