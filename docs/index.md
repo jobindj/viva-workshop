@@ -45,7 +45,7 @@ This workshop is intended for those interested in using and contributing to VIVA
 ## **Before the workshop**
 
 1. Sign up on [OpenVT](https://virtual.openvt.eu/), request access to the workshop exercise repo, and complete the participant survey form.
-2. [Install and configure Git](0-setup) on your computer
+2. [Install and configure Git](0-1-setup) on your computer
 3. Install packages required for [preprocessor (Dynasaur) session](0-2-jupyter-notebook-setup.md)
 
 
