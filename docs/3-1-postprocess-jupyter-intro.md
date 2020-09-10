@@ -15,17 +15,14 @@ pushd C:\"your path"\intro_exercis\Postprocessing
 ```
 activate viva_workshop
 ```
-
 4. Start Jupyter Notebook 
 ```
 jupyter notebook
 ```
-
 5. Jupyter Notebook should start to run in your webbrowser:
 ![4ac81621818059a99974ec34bfcc7fe2.png](img/4ac81621818059a99974ec34bfcc7fe2.png)
 
 6. Click on [Jupyter Notebook](http://localhost:8888/notebooks/Jupyter_Notebook_Viano_internal_workshop.ipynb) to open the exemplary notebook we have shared with you
-
 ![7671863442da639b5ce89afc8a2c6ecb.png](img/7671863442da639b5ce89afc8a2c6ecb.png)
 
 7. Run the notebook - Click on "Restart and run all cells"
