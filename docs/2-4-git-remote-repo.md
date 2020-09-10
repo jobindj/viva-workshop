@@ -4,14 +4,12 @@
 
     **Questions**
 
-    - How can I report an issue/error or request a feature/update with the model/library?
     - How can I make my changes available on the remote repo?
     - How can I submit a request to merge my updates to the model?
     - How can I get updates from the remote repo on my local repo?
   
     **Objectives** 
 
-    - Get familiar with the Gitlab issue board for issue creation and project planning
     - Learn to push updates to the remote Git server
     - Execute a merge request submission of your branch
     - Learn to pull updates from the remote Git server
