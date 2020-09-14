@@ -39,7 +39,7 @@ git push origin <branch>
 
     **2. Link this file to your name in the README**
 
-    The markdown syntax to link is [text to link](link). Add a link to your name like this [First-name](Name.md)
+    The markdown syntax to link is `[text to link](link)`. Add a link to your name like this [First-name](Name.md)
 
     **3. Commit your updates**
 
