@@ -52,4 +52,8 @@ This workshop is intended for those interested in using and contributing to VIVA
 
 ![VIRTUAL Funding](img/VIRTUAL_EUFunding.png){: style="width:450px"}
 
+See [projectvirtual.eu](https://projectvirtual.eu/) for more details.
+
+Handout authors: Jobin D. John, Corina Klug, Martin Schachner
+
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />The contents in this handout are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. Referenced content hold their original license.
